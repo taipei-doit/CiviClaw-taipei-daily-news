@@ -41,6 +41,24 @@
             padding: 0 20px;
         }
         
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
         .article-card {
             background: white;
             border-radius: 12px;
@@ -99,6 +117,20 @@
             height: auto;
             display: block;
         }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+        .footer img {
+            width: 150px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 4px solid white;
+        }
     </style>
 </head>
 <body>
@@ -111,6 +143,7 @@
     </div>
     
     <div class="container">
+        
 
         <div class="article-card">
             <h2 class="article-title">1. 搶攻高薪職缺！北市企業徵才開跑　40K起跳、高薪上看70K</h2>
@@ -172,6 +205,14 @@
             <div class="img-container"><img src="https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9562376/e31e6923-bf34-41bc-8edd-72a26bbfae50.jpg" alt="News Image"></div>
         </div>
 
+    </div>
+    
+    <div class="footer">
+        <h2>掃描加入 LINE 好友</h2>
+        <p>掌握臺北市大小事，重點新聞不漏接！</p>
+        <img src="line_qr.png" alt="LINE QR Code">
+        <br>
+        <a href="https://lin.ee/290wqpej" style="color: #3498db; font-size: 1.2rem; text-decoration: none; font-weight: bold;">或點擊此處直接加入</a>
     </div>
 </body>
 </html>
