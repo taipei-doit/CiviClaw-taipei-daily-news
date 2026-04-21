@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台北市政ニュース (Taipei City News)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
+        header { background: #2c3e50; color: white; padding: 2rem 0; text-align: center; }
+        h1 { margin: 0; font-size: 2.5rem; }
+        .container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+        .video-container { background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+        video { width: 100%; border-radius: 5px; }
+        .article { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1.5rem; display: flex; gap: 1.5rem; }
+        .article img { width: 300px; height: 200px; object-fit: cover; border-radius: 5px; }
+        .content { flex: 1; }
+        .content h2 { margin-top: 0; color: #2980b9; }
+        .content p { line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>台北市政ニュース</h1>
+        <p>AIによって作成された最新のハイライト</p>
+    </header>
+    <div class="container">
+        <div class="video-container">
+            <h2>最新ニュース動画</h2>
+            <video controls>
+                <source src="final_v11_ja.mp4" type="video/mp4">
+                お使いのブラウザは動画タグをサポートしていません。
+            </video>
+        </div>
+        
+        <h2>今日のニュース</h2>
+        
+        <div class="article">
+            <img src="https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9472201/f48ed8a7-c1ea-4de6-b79b-b4c69064fc38.jpg" alt="東京都副知事が台北市を訪問">
+            <div class="content">
+                <h2>東京都副知事が台北市を訪問</h2>
+                <p>宮坂東京都副知事が台北市を訪問し、蔣万安市長と面会しました。双方はデジタルトランスフォーメーションとスタートアップ支援における協力強化で合意しました。</p>
+            </div>
+        </div>
+        
+        <div class="article">
+            <img src="https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9394542/39050e2f-0c27-4344-b19e-e7f9b4562b6b.jpg" alt="東京高円寺阿波おどりが台北で公演">
+            <div class="content">
+                <h2>東京高円寺阿波おどりが台北で公演</h2>
+                <p>台北市の松山慈祐宮で開催された文化祭に、東京の高円寺阿波おどりが参加しました。蔣万安市長は、日台の文化交流の架け橋として高く評価しました。</p>
+            </div>
+        </div>
+        
+        <div class="article">
+            <img src="https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9120783/3d71e5da-e28e-416c-8aa9-7c5d9f7322e8.jpg" alt="小池東京都知事が台北市を訪問">
+            <div class="content">
+                <h2>小池東京都知事が台北市を訪問</h2>
+                <p>小池百合子東京都知事が台北市を訪問しました。蔣万安市長は、防災、人口対策、環境保護、スポーツ大会の開催など、多分野での交流を深めることを確認しました。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
