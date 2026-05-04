@@ -27,6 +27,8 @@ def synthesize_text(text, out_file):
     # We replace the break tags as Gemini TTS does not officially support SSML <break> directly in prompt, 
     # though it might support some inline tags.
     clean_text = text.replace('<break time="3s"/>', '。')
+    # Enforce Mandarin by injecting an explicit instruction
+    clean_text = "請用流利的台灣國語朗讀以下新聞內容：" + clean_text
     
     payload = {
         "contents": [{"role": "user", "parts": [{"text": clean_text}]}],
