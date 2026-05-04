@@ -374,8 +374,41 @@ def main():
 </html>
 """
 
-    index_path = WEB_DIR / "index.html"
+        index_path = WEB_DIR / "index.html"
+    archive1_path = WEB_DIR / "archive1.html"
+    archive2_path = WEB_DIR / "archive2.html"
+    
+    # Rotate archives
+    if archive1_path.exists():
+        archive1_path.replace(archive2_path)
+    if index_path.exists():
+        index_path.replace(archive1_path)
+        
+    # Inject Pagination Buttons into HTML before writing
+    pagination_html = """
+    <div style="text-align: center; margin: 40px 0;">
+        <h3>歷史回顧</h3>
+        <a href="index.html" class="btn" style="background: #e74c3c;">今日新聞</a>
+        <a href="archive1.html" class="btn">昨日新聞</a>
+        <a href="archive2.html" class="btn">前日新聞</a>
+    </div>
+    """
+    
+    html = html.replace('</div>\n    \n    <div class="footer">', pagination_html + '</div>\n    <div class="footer">')
+    
     index_path.write_text(html, encoding="utf-8")
+    
+    # Create empty placeholders if archives don't exist
+    placeholder_html = """<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="UTF-8"><title>即將更新</title>
+    <style>body{font-family:sans-serif;text-align:center;padding:50px;} .btn{display:inline-block;background:#3498db;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;margin:10px;}</style></head>
+    <body><h2>歷史資料即將更新 (Will update soon)</h2>
+    <a href="index.html" class="btn">返回今日新聞</a></body></html>"""
+    
+    if not archive1_path.exists():
+        archive1_path.write_text(placeholder_html, encoding="utf-8")
+    if not archive2_path.exists():
+        archive2_path.write_text(placeholder_html, encoding="utf-8")
+
     print(f"Web portal successfully generated at {index_path}")
 
 if __name__ == "__main__":
