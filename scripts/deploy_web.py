@@ -374,7 +374,7 @@ def main():
 </html>
 """
 
-        index_path = WEB_DIR / "index.html"
+    index_path = WEB_DIR / "index.html"
     archive1_path = WEB_DIR / "archive1.html"
     archive2_path = WEB_DIR / "archive2.html"
     
