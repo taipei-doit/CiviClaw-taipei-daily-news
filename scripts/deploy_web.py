@@ -388,9 +388,26 @@ def main():
     pagination_html = """
     <div style="text-align: center; margin: 40px 0;">
         <h3>歷史回顧</h3>
-        <a href="index.html" class="btn" style="background: #e74c3c;">今日新聞</a>
-        <a href="archive1.html" class="btn">昨日新聞</a>
-        <a href="archive2.html" class="btn">前日新聞</a>
+        <a href="index.html" class="btn pagination-btn">今日新聞</a>
+        <a href="archive1.html" class="btn pagination-btn">昨日新聞</a>
+        <a href="archive2.html" class="btn pagination-btn">前日新聞</a>
+
+    <script>
+        // Set active pagination button based on current URL
+        document.addEventListener("DOMContentLoaded", function() {
+            let currentPath = window.location.pathname.split('/').pop();
+            if (!currentPath) currentPath = 'index.html'; // Default to index
+            
+            document.querySelectorAll('.pagination-btn').forEach(btn => {
+                if (btn.getAttribute('href') === currentPath) {
+                    btn.style.background = '#e74c3c';
+                } else {
+                    btn.style.background = '#3498db';
+                }
+            });
+        });
+    </script>
+
     </div>
     """
     
