@@ -28,7 +28,8 @@ def synthesize_text(text, out_file):
     # though it might support some inline tags.
     clean_text = text.replace('<break time="3s"/>', '。')
     # Enforce Mandarin by injecting an explicit instruction
-    clean_text = "請以專業的新聞主播語氣，充滿活力但不過度戲劇化，用流利的台灣國語朗讀以下新聞內容：" + clean_text
+    clean_text = clean_text.replace("！", "。").replace("!", "。")
+    clean_text = "請以專業的新聞主播語氣，語調平穩自然、不過度戲劇化，用流利的台灣國語朗讀以下新聞內容：" + clean_text
     
     payload = {
         "contents": [{"role": "user", "parts": [{"text": clean_text}]}],
