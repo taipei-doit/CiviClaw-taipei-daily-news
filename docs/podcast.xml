@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>臺北每日新聞 (Taipei Daily News)</title>
+    <link>https://float-ben.github.io/GovClaw-taipei-daily-news/</link>
+    <language>zh-TW</language>
+    <description>每日為您提供臺北市政府最新鮮、最重要的市政新聞摘要。由 AI 自動精選與配音。</description>
+    <itunes:author>GovClaw AI</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://float-ben.github.io/GovClaw-taipei-daily-news/line_qr.png"/>
+    <itunes:category text="News">
+      <itunes:category text="Daily News"/>
+    </itunes:category>
+    <item>
+      <title>每日市政摘要 2026-05-19</title>
+      <description>今日臺北市政重點新聞摘要：
+1. 蔣萬安赴雲林考察營養午餐食材 攜北農北漁推廣雲林優質農漁產品
+為了確保學童能吃到最安心健康的營養午餐，臺北市長蔣萬安親自率隊前往雲林產地進行考察。市府攜手臺北農產與臺北漁產公司，共同推廣雲林在地優質農漁產品，讓孩子們的午餐既美味又安全。
+2. 市長親自視察士林區溪山、平等高地供水工程 確保山區居民用水安全無虞
+臺北市政府持續強化基礎民生建設，蔣萬安市長特別前往士林區視察溪山與平等高地的供水工程進度。這項工程將大幅改善當地基礎設施，確保山區居民在未來能夠享有穩定且安全的日常用水。
+3. 2026北投河事生活節暨人口政策宣導活動 帶領孩子走入北投記憶，共譜「河樂融龍」美好回憶！
+充滿歡笑的「2026北投河事生活節」在關渡水岸公園熱鬧登場，今年特別打造了史前恐龍舞台與互動專區。活動結合了藝文表演與親子闖關遊戲，帶領大小朋友在趣味中深度探索北投豐富的人文歷史。
+4. 捷運信義線東延段象山站至廣慈奉天宮站初勘順利完成
+臺北捷運路網即將再擴張！信義線東延段從象山站至廣慈奉天宮站的初勘作業已順利完成。未來通車後，將為信義區周邊帶來更便捷的交通網絡，大幅縮短市民通勤時間。
+5. 第三屆「2026搭捷運聽民歌」千人合唱經典歌曲 臺北捷運用音樂與公益 再次串聯城市記憶
+臺北捷運公司舉辦第三屆「搭捷運聽民歌」活動，現場吸引上千位民眾齊聲高唱經典民歌。透過悠揚的音樂與公益結合，不僅喚起市民共同的城市記憶，也為臺北的週末夜晚增添溫馨氛圍。
+</description>
+      <pubDate>Tue, 19 May 2026 02:43:26 GMT</pubDate>
+      <guid isPermaLink="false">episode_2026-05-19.mp3</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-19.mp3" length="479373" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
