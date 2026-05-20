@@ -8,13 +8,27 @@ import google_auth_oauthlib.flow
 import google.oauth2.credentials
 import google.auth.transport.requests
 
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+import sys
+
+SCOPES = ["https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtube"]
 
 BASE = Path.home() / "tw-gov-video"
 OUTPUT_DIR = BASE / "output"
 SCRIPTS_DIR = BASE / "scripts"
+
 INPUT_JSON = OUTPUT_DIR / "selected_articles.json"
 VIDEO_FILE = OUTPUT_DIR / "video.mp4"
+PLAYLIST_ID = "PLYfurwYZZk24nXcwyqPkY6_mUI0W4xP8E"
+IS_JAPANESE = False
+
+if len(sys.argv) >= 2:
+    INPUT_JSON = Path(sys.argv[1])
+if len(sys.argv) >= 3:
+    VIDEO_FILE = Path(sys.argv[2])
+if len(sys.argv) >= 4:
+    PLAYLIST_ID = sys.argv[3]
+    IS_JAPANESE = True
+
 THUMBNAIL_FILE = OUTPUT_DIR / "frame_intro.png"
 TIMESTAMPS_FILE = OUTPUT_DIR / "youtube_timestamps.txt"
 CLIENT_SECRETS_FILE = SCRIPTS_DIR / "client_secrets.json"
@@ -30,22 +44,23 @@ def get_video_metadata():
     try:
         data = json.loads(INPUT_JSON.read_text(encoding="utf-8"))
         items = data.get("selected", [])
-        title = f"每日新聞 {datetime.now().strftime('%Y-%m-%d')}"
         
-        description_lines = []
-        
-        description_lines.append(f"📱 加入 LINE 官方帳號，每日自動接收圖文摘要:")
-        description_lines.append(f"{LINE_FRIEND_LINK}\n")
-        
-        description_lines.append(f"🌐 網站版 (新聞重點摘要與原出處連結):\n{WEB_PORTAL_URL}\n")
-        description_lines.append("-" * 30 + "\n")
-        
-        description_lines.append("今日臺北市政重點新聞摘要：\n")
-        
-        if TIMESTAMPS_FILE.exists():
-            description_lines.append("【新聞段落時間軸】")
-            description_lines.append(TIMESTAMPS_FILE.read_text().strip())
-            description_lines.append("\n" + "-" * 30 + "\n")
+        if IS_JAPANESE:
+            title = f"台北市政ニュース {datetime.now().strftime('%Y-%m-%d')}"
+            description_lines = ["今日の台北市政ニュースのハイライト：\n"]
+        else:
+            title = f"每日新聞 {datetime.now().strftime('%Y-%m-%d')}"
+            description_lines = []
+            description_lines.append(f"📱 加入 LINE 官方帳號，每日自動接收圖文摘要:")
+            description_lines.append(f"{LINE_FRIEND_LINK}\n")
+            description_lines.append(f"🌐 網站版 (新聞重點摘要與原出處連結):\n{WEB_PORTAL_URL}\n")
+            description_lines.append("-" * 30 + "\n")
+            description_lines.append("今日臺北市政重點新聞摘要：\n")
+            
+            if TIMESTAMPS_FILE.exists():
+                description_lines.append("【新聞段落時間軸】")
+                description_lines.append(TIMESTAMPS_FILE.read_text().strip())
+                description_lines.append("\n" + "-" * 30 + "\n")
         
         for idx, item in enumerate(items, 1):
             art_title = item.get('title', '')
@@ -53,13 +68,16 @@ def get_video_metadata():
             source_url = item.get('source_url', '')
             description_lines.append(f"{idx}. {art_title}\n{art_script}")
             if source_url:
-                description_lines.append(f"🔗 原文與聯絡資訊連結:\n{source_url}")
+                if IS_JAPANESE:
+                    description_lines.append(f"🔗 リンク:\n{source_url}")
+                else:
+                    description_lines.append(f"🔗 原文與聯絡資訊連結:\n{source_url}")
             description_lines.append("\n")
             
         return title, "\n".join(description_lines)
     except Exception as e:
         print("Error parsing json metadata:", e)
-        return "每日新聞", "Error formatting description."
+        return "每日新聞" if not IS_JAPANESE else "台北市政ニュース", "Error formatting description."
 
 def get_authenticated_service():
     creds = None
@@ -102,13 +120,33 @@ def main():
         # Save URL so deploy_web.py can read it and embed it
         YOUTUBE_URL_FILE.write_text(video_url)
         
-        if THUMBNAIL_FILE.exists():
+        if THUMBNAIL_FILE.exists() and not IS_JAPANESE:
             print(f"Uploading Custom Thumbnail: {THUMBNAIL_FILE}")
             youtube.thumbnails().set(
                 videoId=video_id,
                 media_body=MediaFileUpload(str(THUMBNAIL_FILE))
             ).execute()
             print("Thumbnail successfully applied!")
+            
+        # Add to playlist
+        if PLAYLIST_ID:
+            print(f"Adding video to playlist {PLAYLIST_ID}...")
+            try:
+                youtube.playlistItems().insert(
+                    part="snippet",
+                    body={
+                        "snippet": {
+                            "playlistId": PLAYLIST_ID,
+                            "resourceId": {
+                                "kind": "youtube#video",
+                                "videoId": video_id
+                            }
+                        }
+                    }
+                ).execute()
+                print("Successfully added to playlist!")
+            except Exception as pe:
+                print(f"Warning: Failed to add to playlist (Scope might need refresh): {pe}")
             
     except Exception as e:
         print(f"Error: {e}")
