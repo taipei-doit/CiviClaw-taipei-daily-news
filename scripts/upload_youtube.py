@@ -118,7 +118,8 @@ def main():
         print(f"Video Success! URL: {video_url}")
         
         # Save URL so deploy_web.py can read it and embed it
-        YOUTUBE_URL_FILE.write_text(video_url)
+        if not IS_JAPANESE:
+            YOUTUBE_URL_FILE.write_text(video_url)
         
         if THUMBNAIL_FILE.exists() and not IS_JAPANESE:
             print(f"Uploading Custom Thumbnail: {THUMBNAIL_FILE}")
