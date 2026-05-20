@@ -226,6 +226,30 @@ def main():
             padding: 50px 20px;
             margin-top: 50px;
         }}
+        .footer-content {{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }}
+        .footer-section {{
+            flex: 1;
+            min-width: 300px;
+        }}
+        .footer-divider {{
+            width: 1px;
+            height: 250px;
+            background-color: #4a5d70;
+            display: none;
+        }}
+        @media (min-width: 768px) {{
+            .footer-divider {{
+                display: block;
+            }}
+        }}
         .footer img {{
             width: 150px;
             border-radius: 10px;
@@ -325,11 +349,25 @@ def main():
     </div>
     
     <div class="footer">
-        <h2>掃描加入 LINE 好友</h2>
-        <p>掌握臺北市大小事，重點新聞不漏接！</p>
-        <img src="line_qr.png" alt="LINE QR Code">
-        <br>
-        <a href="{LINE_FRIEND_LINK}" style="color: #3498db; font-size: 1.2rem; text-decoration: none; font-weight: bold;">或點擊此處直接加入</a>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>掃描加入 LINE 好友</h2>
+                <p>掌握臺北市大小事，重點新聞不漏接！</p>
+                <img src="line_qr.png" alt="LINE QR Code">
+                <br>
+                <a href="{LINE_FRIEND_LINK}" style="color: #3498db; font-size: 1.2rem; text-decoration: none; font-weight: bold;">或點擊此處直接加入</a>
+            </div>
+            
+            <div class="footer-divider"></div>
+            
+            <div class="footer-section">
+                <h2>收聽 Podcast 每日摘要</h2>
+                <p>通勤時間用聽的，市政重點不漏接！</p>
+                <img src="spotify_qr.png" alt="Spotify QR Code">
+                <br>
+                <a href="https://open.spotify.com/show/033jJtZiN097aPxw99mHYW" target="_blank" style="color: #1DB954; font-size: 1.2rem; text-decoration: none; font-weight: bold;">或點擊此處前往 Spotify 收聽</a>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -378,10 +416,21 @@ def main():
     archive1_path = WEB_DIR / "archive1.html"
     archive2_path = WEB_DIR / "archive2.html"
     
-    # Rotate archives
-    if archive1_path.exists():
-        archive1_path.replace(archive2_path)
+    # Rotate archives ONLY if the content actually changes (prevents manual testing from wiping archives)
+    should_rotate = False
     if index_path.exists():
+        try:
+            existing_html = index_path.read_text(encoding="utf-8")
+            # We check if the first article title in the existing HTML matches the one we are about to generate
+            first_article_title = items[0].get("title", "")
+            if first_article_title not in existing_html:
+                should_rotate = True
+        except Exception:
+            should_rotate = True
+            
+    if should_rotate:
+        if archive1_path.exists():
+            archive1_path.replace(archive2_path)
         index_path.replace(archive1_path)
         
     # Inject Pagination Buttons into HTML before writing
