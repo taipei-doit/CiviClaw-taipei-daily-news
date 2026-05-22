@@ -14,6 +14,7 @@ LINE_ACCESS_TOKEN = "OzxY2CAnLdr+y7+5CYXPz+zmn/AzGd8HWK3zMNhwp70zOzLY67nbNAVM4tq
 
 WEB_PORTAL_URL = "https://float-ben.github.io/GovClaw-taipei-daily-news/"
 SPOTIFY_URL = "https://open.spotify.com/show/033jJtZiN097aPxw99mHYW"
+FALLBACK_THUMBNAIL = "https://float-ben.github.io/GovClaw-taipei-daily-news/line_qr.png"
 
 def build_message_text():
     if not INPUT_JSON.exists():
@@ -43,8 +44,13 @@ def build_flex_message():
     alt_text = build_message_text()
     
     youtube_url = "https://www.youtube.com/@CiviClaw" # fallback
+    thumbnail_url = FALLBACK_THUMBNAIL
+    
     if YOUTUBE_URL_FILE.exists():
         youtube_url = YOUTUBE_URL_FILE.read_text().strip()
+        if "watch?v=" in youtube_url:
+            video_id = youtube_url.split("watch?v=")[1].split("&")[0]
+            thumbnail_url = f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg"
 
     if not INPUT_JSON.exists():
         return [{"type": "text", "text": "今日無重點新聞摘要更新。"}]
@@ -58,11 +64,21 @@ def build_flex_message():
         body_contents = [
             {
                 "type": "text",
-                "text": "今日重點新聞提要",
+                "text": "臺北市政府新聞摘要",
                 "weight": "bold",
-                "size": "md",
-                "margin": "md",
-                "color": "#e74c3c"
+                "size": "xl",
+                "color": "#2c3e50"
+            },
+            {
+                "type": "text",
+                "text": today,
+                "size": "sm",
+                "color": "#8a8a8a",
+                "margin": "sm"
+            },
+            {
+                "type": "separator",
+                "margin": "lg"
             }
         ]
         
@@ -72,13 +88,15 @@ def build_flex_message():
                 "type": "box",
                 "layout": "horizontal",
                 "margin": "md",
+                "spacing": "sm",
                 "contents": [
                     {
                         "type": "text",
-                        "text": f"{idx}.",
-                        "size": "sm",
-                        "color": "#888888",
-                        "flex": 1
+                        "text": "🔹",
+                        "size": "md",
+                        "color": "#3498db",
+                        "flex": 0,
+                        "weight": "bold"
                     },
                     {
                         "type": "text",
@@ -86,7 +104,7 @@ def build_flex_message():
                         "size": "sm",
                         "color": "#333333",
                         "wrap": True,
-                        "flex": 9
+                        "flex": 1
                     }
                 ]
             })
@@ -96,28 +114,17 @@ def build_flex_message():
             "altText": alt_text,
             "contents": {
                 "type": "bubble",
-                "size": "mega",
-                "header": {
-                    "type": "box",
-                    "layout": "vertical",
-                    "backgroundColor": "#2c3e50",
-                    "paddingAll": "20px",
-                    "contents": [
-                        {
-                            "type": "text",
-                            "text": "臺北市政府新聞摘要",
-                            "weight": "bold",
-                            "size": "xl",
-                            "color": "#ffffff"
-                        },
-                        {
-                            "type": "text",
-                            "text": today,
-                            "color": "#ffffffcc",
-                            "size": "sm",
-                            "margin": "sm"
-                        }
-                    ]
+                "size": "kilo",
+                "hero": {
+                    "type": "image",
+                    "url": thumbnail_url,
+                    "size": "full",
+                    "aspectRatio": "16:9",
+                    "aspectMode": "cover",
+                    "action": {
+                        "type": "uri",
+                        "uri": youtube_url
+                    }
                 },
                 "body": {
                     "type": "box",
@@ -132,35 +139,41 @@ def build_flex_message():
                         {
                             "type": "button",
                             "style": "primary",
-                            "color": "#3498db",
-                            "height": "sm",
-                            "action": {
-                                "type": "uri",
-                                "label": "🌐 閱讀圖文摘要",
-                                "uri": WEB_PORTAL_URL
-                            }
-                        },
-                        {
-                            "type": "button",
-                            "style": "primary",
                             "color": "#e74c3c",
                             "height": "sm",
                             "action": {
                                 "type": "uri",
-                                "label": "📺 YouTube 影片",
+                                "label": "▶️ 觀看今日影片",
                                 "uri": youtube_url
                             }
                         },
                         {
-                            "type": "button",
-                            "style": "primary",
-                            "color": "#1DB954",
-                            "height": "sm",
-                            "action": {
-                                "type": "uri",
-                                "label": "🎧 Spotify 收聽",
-                                "uri": SPOTIFY_URL
-                            }
+                            "type": "box",
+                            "layout": "horizontal",
+                            "spacing": "sm",
+                            "margin": "sm",
+                            "contents": [
+                                {
+                                    "type": "button",
+                                    "style": "secondary",
+                                    "height": "sm",
+                                    "action": {
+                                        "type": "uri",
+                                        "label": "🌐 閱讀圖文",
+                                        "uri": WEB_PORTAL_URL
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "style": "secondary",
+                                    "height": "sm",
+                                    "action": {
+                                        "type": "uri",
+                                        "label": "🎧 Podcast",
+                                        "uri": SPOTIFY_URL
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
