@@ -104,8 +104,37 @@ def create_single_slide_html(slide_type, data, img_path=""):
         <div class="slide title-slide" style="display: flex;">
             <div class="badge">FOCUS NEWS</div>
             <h1>{data['title']}</h1>
+            <h2>{data.get('date', '')}</h2>
+            <h3 style="font-family: 'Noto Sans JP', sans-serif; font-size: 40px; color: #7f8c8d; margin-top: 30px;">本動画と音声はAIによって自動生成されました</h3>
         </div>
         """
+    elif slide_type == "headlines":
+        # Need to gather the headlines. We can just read the JSON file again or pass it. 
+        # But wait, we can just inject the list. Let's do it hacky since we have 'items' in main, but not here.
+        # Actually, let's just make it a static slide for now if we can't easily pass items.
+        # Wait, I can read it!
+        with open("/home/benliangcs/tw-gov-video/output/selected_articles_jp.json", "r") as f:
+            try:
+                jp_data = json.load(f)
+                content_items = [i for i in jp_data.get("selected", []) if i.get("type") == "content"]
+            except:
+                content_items = []
+        
+        list_html = ""
+        for i, c_item in enumerate(content_items):
+            list_html += f"<li><span class='num'>{i+1}</span>{c_item.get('title', '')}</li>"
+            
+        body_content = f"""
+        <div class="slide" style="display: flex; width: 100%;">
+            <div class="content-box" style="width: 80%; height: auto;">
+                <h2 class="slide-title">{data['title']}</h2>
+                <ul class="headlines-list" style="list-style: none; padding: 0; margin: 0; font-size: 38px; line-height: 1.6; font-weight: 700;">
+                    {list_html}
+                </ul>
+            </div>
+        </div>
+        """
+        
     elif slide_type == "content":
         # We need to render local image base64 if it's local
         if img_path.startswith("http"):
@@ -124,9 +153,10 @@ def create_single_slide_html(slide_type, data, img_path=""):
                 <h2 class="slide-title">{data['title']}</h2>
                 <div class="layout-split">
                     <div class="text-column">
-                        <div class="label">NEWS UPDATE</div>
+                        <div class="label" style="font-size: 24px; margin-bottom: 10px;">推薦原因</div>
+                        <p class="script-text" style="font-size: 28px; color: #555; margin-bottom: 20px;">{data.get('reason', '')}</p>
+                        <div class="label" style="font-size: 24px; margin-bottom: 10px;">播報稿</div>
                         <p class="script-text">{data['script']}</p>
-                        <p class="script-text" style="margin-top:20px; font-size: 28px; color: #7f8c8d;"><strong>選考理由：</strong><br>{data.get('reason', '')}</p>
                     </div>
                     <div class="image-column">
                         <img src="{src}" class="content-img">
@@ -164,10 +194,13 @@ def create_single_slide_html(slide_type, data, img_path=""):
         .slide {{ width: 1920px; height: 1080px; position: absolute; top: 0; left: 0; flex-direction: column; align-items: center; justify-content: center; padding: 80px; box-sizing: border-box; }}
         
         .title-slide h1 {{ font-family: 'Dela Gothic One', sans-serif; font-size: 160px; font-weight: normal; color: #2c3e50; margin: 0; text-align: center; text-shadow: 6px 6px 0px rgba(52, 152, 219, 0.2); }}
+        .title-slide h2 {{ font-size: 80px; font-weight: bold; color: #34495e; margin: 20px 0 0 0; }}
         .title-slide .badge {{ background: #2c3e50; color: white; padding: 15px 40px; border-radius: 5px; font-size: 36px; font-weight: bold; margin-bottom: 40px; letter-spacing: 2px; text-transform: uppercase; }}
 
         .content-box {{ background: white; border-radius: 20px; padding: 50px 70px; width: 90%; height: 80%; box-shadow: 0 25px 60px rgba(0,0,0,0.08); display: flex; flex-direction: column; position: relative; z-index: 10; margin-bottom: 50px; }}
         .slide-title {{ font-weight: 900; font-size: 45px; color: #2980b9; margin: 0 0 20px 0; line-height: 1.3; border-bottom: 4px solid #f1c40f; padding-bottom: 10px; }}
+        .headlines-list li {{ margin-bottom: 25px; display: flex; align-items: center; color: #2c3e50; }}
+        .headlines-list .num {{ background: #e74c3c; color: white; border-radius: 50%; width: 60px; height: 60px; display: inline-flex; justify-content: center; align-items: center; margin-right: 25px; font-size: 30px; font-weight: bold; flex-shrink: 0; }}
         .layout-split {{ display: flex; flex: 1; gap: 50px; height: calc(100% - 100px); }}
         .text-column {{ flex: 1.2; display: flex; flex-direction: column; justify-content: center; }}
         .image-column {{ flex: 1; display: flex; justify-content: center; align-items: center; border-radius: 15px; overflow: hidden; position: relative; background: #ecf0f1; box-shadow: inset 0 0 20px rgba(0,0,0,0.05); }}
@@ -210,12 +243,22 @@ def main():
     # 1. Intro
     jp_items.append({
         "type": "intro",
-        "title": f"台北市政ニュース {datetime.now().strftime('%Y-%m-%d')}",
+        "title": f"台北市政ニュース",
+        "date": f"{datetime.now().strftime('%Y-%m-%d')}",
         "script": "",
         "tts": "台北市政ニュース。本動画はAIによって自動生成されました。"
     })
     
-    # 2. Content
+    # 2. Headlines
+    headlines_text = "今日の主なニュースです。"
+    jp_items.append({
+        "type": "headlines",
+        "title": "今日のヘッドライン",
+        "script": "",
+        "tts": headlines_text
+    })
+    
+    # 3. Content
     for idx, item in enumerate(items):
         print(f"Translating article {idx+1}...")
         jp_title = translate_to_jp(item.get("title", ""), is_title=True)
