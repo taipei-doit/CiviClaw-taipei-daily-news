@@ -91,5 +91,16 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-23.mp3" length="449229" type="audio/mpeg"/>
     </item>
+    <item>
+      <title>每日市政摘要 2026-05-24</title>
+      <description>今日臺北市政重點新聞摘要：
+1. 不只薪水高！企業拚福利、重成長　北市徵才活動超吸睛
+臺北市就業服務處於5月26日至28日舉辦現場徵才活動，17家企業釋出多元職缺。不少企業以完善福利制度、透明升遷機制與高薪待遇吸引人才，展現搶才誠意。尋找新工作或轉職機會的民眾，千萬別錯過這次好機會！
+</description>
+      <pubDate>Sun, 24 May 2026 09:01:46 GMT</pubDate>
+      <guid isPermaLink="false">episode_2026-05-24.mp3</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-24.mp3" length="175341" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
