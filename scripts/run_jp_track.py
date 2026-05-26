@@ -153,9 +153,9 @@ def create_single_slide_html(slide_type, data, img_path=""):
                 <h2 class="slide-title">{data['title']}</h2>
                 <div class="layout-split">
                     <div class="text-column">
-                        <div class="label" style="font-size: 24px; margin-bottom: 10px;">推薦原因</div>
-                        <p class="script-text" style="font-size: 28px; color: #555; margin-bottom: 20px;">{data.get('reason', '')}</p>
-                        <div class="label" style="font-size: 24px; margin-bottom: 10px;">播報稿</div>
+                        <div class="label" style="font-size: 20px; margin-bottom: 8px;">推薦原因</div>
+                        <p class="script-text" style="font-size: 22px; color: #555; margin-bottom: 15px;">{data.get('reason', '')}</p>
+                        <div class="label" style="font-size: 20px; margin-bottom: 8px;">播報稿</div>
                         <p class="script-text">{data['script']}</p>
                     </div>
                     <div class="image-column">
@@ -198,15 +198,15 @@ def create_single_slide_html(slide_type, data, img_path=""):
         .title-slide .badge {{ background: #2c3e50; color: white; padding: 15px 40px; border-radius: 5px; font-size: 36px; font-weight: bold; margin-bottom: 40px; letter-spacing: 2px; text-transform: uppercase; }}
 
         .content-box {{ background: white; border-radius: 20px; padding: 50px 70px; width: 90%; height: 80%; box-shadow: 0 25px 60px rgba(0,0,0,0.08); display: flex; flex-direction: column; position: relative; z-index: 10; margin-bottom: 50px; }}
-        .slide-title {{ font-weight: 900; font-size: 45px; color: #2980b9; margin: 0 0 20px 0; line-height: 1.3; border-bottom: 4px solid #f1c40f; padding-bottom: 10px; }}
+        .slide-title {{ font-weight: 900; font-size: 36px; color: #2980b9; margin: 0 0 15px 0; line-height: 1.3; border-bottom: 4px solid #f1c40f; padding-bottom: 10px; }}
         .headlines-list li {{ margin-bottom: 25px; display: flex; align-items: center; color: #2c3e50; }}
         .headlines-list .num {{ background: #e74c3c; color: white; border-radius: 50%; width: 60px; height: 60px; display: inline-flex; justify-content: center; align-items: center; margin-right: 25px; font-size: 30px; font-weight: bold; flex-shrink: 0; }}
         .layout-split {{ display: flex; flex: 1; gap: 50px; height: calc(100% - 100px); }}
         .text-column {{ flex: 1.2; display: flex; flex-direction: column; justify-content: center; }}
         .image-column {{ flex: 1; display: flex; justify-content: center; align-items: center; border-radius: 15px; overflow: hidden; position: relative; background: #ecf0f1; box-shadow: inset 0 0 20px rgba(0,0,0,0.05); }}
         .content-img {{ width: 100%; height: 100%; object-fit: cover; border-radius: 15px; border: 3px solid rgba(189, 195, 199, 0.4); box-sizing: border-box; }}
-        .label {{ font-weight: 900; color: #e74c3c; font-size: 28px; margin-bottom: 15px; display: inline-block; border-left: 8px solid #e74c3c; padding-left: 15px; text-transform: uppercase; letter-spacing: 1px; }}
-        .script-text {{ font-size: 38px; line-height: 1.5; color: #34495e; margin: 0; font-weight: 700; }}
+        .label {{ font-weight: 900; color: #e74c3c; font-size: 20px; margin-bottom: 10px; display: inline-block; border-left: 8px solid #e74c3c; padding-left: 15px; text-transform: uppercase; letter-spacing: 1px; }}
+        .script-text {{ font-size: 28px; line-height: 1.5; color: #34495e; margin: 0; font-weight: 700; }}
 
         .outro-slide h1 {{ font-weight: 900; font-size: 140px; color: #2c3e50; margin: 0 0 30px 0; text-align: center; }}
         .outro-slide h2 {{ color: #e74c3c; font-size: 70px; margin:0; text-align: center; }}
