@@ -262,5 +262,24 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-01.mp3" length="511533" type="audio/mpeg"/>
     </item>
+    <item>
+      <title>每日市政摘要 2026-06-02</title>
+      <description>今日臺北市政重點新聞摘要：
+1. 四國AI新創領袖齊聚臺北！InnoVEX論壇「Invest and Start a Business in Taipei」展現臺北成為亞洲創業首選城市新實力
+臺北市政府產業發展局在InnoVEX舉辦論壇，吸引日、韓、星、泰四國AI與深科技新創領袖參與。臺北市以充沛的AI研發能量與硬體生態系，正快速成為全球新創團隊落地亞洲的首選城市，未來將持續擴大創新創業生態圈。
+2. 響應世界自行車日　臺北市簽署國際宣言倡議綠色運輸
+為響應聯合國世界自行車日，蔣萬安市長正式簽署「臺北市世界自行車日宣言」。市府表示，YouBike前30分鐘免費措施實施後使用量成長63%，未來將持續打造更友善的騎乘環境，與市民共同邁向2050淨零碳排的綠色城市。
+3. 臺北市推出「居家公安一條龍」服務！專人走入社區，主動通知並全面補助初次成立管委會
+臺北市建管處推出「居家公安一條龍」服務，主動協助6樓以上老舊公寓大廈成立管委會與辦理公安申報。不僅提供專人到府的免費初檢，修繕補助最高更大幅調升至138萬元，實質減輕社區財務負擔，打造安心家園。
+4. 臺北捷運嚴厲譴責竹圍站旅客蓄意丟擲行李箱行為 依法最高罰百萬並將相關事證函送警方依公共危險罪嫌偵辦
+針對6月1日有旅客在淡水信義線竹圍站蓄意將行李箱丟入軌道區，臺北捷運公司表達嚴厲譴責。此舉嚴重危害行車安全，北捷將依法開罰最高一百萬元，並依公共危險罪嫌移送法辦，呼籲民眾切勿以身試法。
+5. 臺北捷運攜手NVIDIA與Linker Vision 導入數位孿生（Digital Twin）技術 打造智慧文湖線
+因應未來的文湖線重置計畫，臺北捷運攜手NVIDIA等國際科技夥伴，導入AI與數位孿生技術。透過高精度的3D建模與人流模擬，將能精準評估車站擁擠度與列車調度，為臺北市打造「以人工智慧驅動的智慧城市」奠定基礎。
+</description>
+      <pubDate>Tue, 02 Jun 2026 09:03:43 GMT</pubDate>
+      <guid isPermaLink="false">episode_2026-06-02.mp3</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-02.mp3" length="531501" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
