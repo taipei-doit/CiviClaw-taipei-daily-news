@@ -82,6 +82,10 @@ def main():
         desc_lines.append(f"{item.get('script', '')}")
         desc_lines.append("")
         
+    desc_lines.append("-" * 30)
+    desc_lines.append("🌐 觀看完整影片與圖文摘要：")
+    desc_lines.append(BASE_URL)
+    
     episode_desc = "\n".join(desc_lines)
     episode_title = f"每日市政摘要 {today_str}"
     
