@@ -437,5 +437,26 @@ https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-10.mp3" length="518733" type="audio/mpeg"/>
     </item>
+    <item>
+      <title>每日市政摘要 2026-06-11</title>
+      <description>今日臺北市政重點新聞摘要：
+1. 北市推AI導入營造工地 科技降災守護勞工安全
+臺北市長蔣萬安宣布推動「科技降災四年計畫」，要求大型工程導入AI影像辨識與預警系統。透過創新科技與XR實境模擬訓練，市府期盼全面提升營造業職場安全，確保每一位勞工都能平安回家。
+2. 北市動物園小貓熊「奇奇」赴新加坡 參與國際保育
+臺北市立動物園的十歲雄性小貓熊「奇奇」已平安抵達新加坡！為了維持瀕危物種的基因多樣性，動物園特別安排這趟國際保育調度。保育員經過長時間訓練，確保生性敏感的奇奇能順利適應新環境。
+3. 北市嚴防強降雨 官方LINE水情警報器升級上線
+鋒面來襲請留意強降雨！水利處提醒市民務必清空住家水溝蓋板、必要時架設防水閘門。全新升級的「臺北水利」LINE水情警報器已上線，現在更能訂閱堤外停車場狀態，第一時間掌握防災資訊。
+4. 北市動物園6月22日至7月1日歲修 十天不對外開放
+準備去動物園玩的朋友請注意！臺北市立動物園將於六月二十二日至七月一日進行年度歲修，連續十天不對外開放。期間將全面修繕動物活動空間並升級遊客設施，期待七月二日暑假以全新面貌相見！
+5. 蔣萬安會晤捷克參議長 探討AI市政與直航雙邊交流
+臺北市長蔣萬安日前會晤捷克參議院議長韋德齊，雙方就智慧城市、教育福利及軌道運輸深入交流。隨著星宇航空八月直航布拉格，加上臺北穿山甲在捷克成功繁衍，未來臺捷兩地的互動將更加緊密！
+------------------------------
+🌐 觀看完整影片與圖文摘要：
+https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+      <pubDate>Thu, 11 Jun 2026 09:04:06 GMT</pubDate>
+      <guid isPermaLink="false">episode_2026-06-11.mp3</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-11.mp3" length="498861" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
