@@ -11,7 +11,7 @@ try:
 except ImportError:
     pass
 
-from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON, YOUTUBE_URL_FILE
+from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON, YOUTUBE_URL_FILE, STATE_FILE
 
 # Read token from environment variable
 LINE_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN", "")
@@ -202,18 +202,20 @@ if __name__ == "__main__":
     broadcast_message(msgs)
     
     # Safely update heartbeat-state.json to prevent duplicate pipeline runs
-    state_file = Path.home() / ".openclaw" / "workspace" / "memory" / "heartbeat-state.json"
+    # (same file the scheduler reads: <repo>/memory/heartbeat-state.json)
+    state_file = STATE_FILE
     try:
+        state_file.parent.mkdir(parents=True, exist_ok=True)
         if state_file.exists():
             state_data = json.loads(state_file.read_text(encoding="utf-8"))
         else:
             state_data = {}
-            
+
         today_str = datetime.now().strftime("%Y-%m-%d")
         state_data["5pm_pipeline_date"] = today_str
         if "lastChecks" not in state_data:
             state_data["lastChecks"] = {}
-        
+
         state_file.write_text(json.dumps(state_data, indent=2), encoding="utf-8")
         print(f"Successfully marked 5pm_pipeline_date as completed for {today_str}")
     except Exception as e:

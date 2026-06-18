@@ -1,3 +1,4 @@
 #!/bin/bash
 set -e
-python3 ~/tw-gov-video/scripts/upload_youtube.py
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+python3 "$DIR/upload_youtube.py"

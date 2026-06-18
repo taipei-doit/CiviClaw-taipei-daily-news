@@ -1,3 +1,4 @@
 #!/bin/bash
 set -e
-python3 ~/tw-gov-video/scripts/tts.py
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+python3 "$DIR/tts.py"

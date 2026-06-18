@@ -2,6 +2,10 @@
 .env
 .env.local
 
+# Sensitive OAuth credentials (YouTube)
+scripts/client_secrets.json
+scripts/*credentials*.json
+
 # Python
 __pycache__/
 *.pyc
