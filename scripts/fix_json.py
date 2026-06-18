@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-INPUT_JSON = Path.home() / "tw-gov-video" / "output" / "selected_articles.json"
+from config import INPUT_JSON
 
 fixed_items = [
     {

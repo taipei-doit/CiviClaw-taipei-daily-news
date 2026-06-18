@@ -3,8 +3,10 @@ from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.dml.color import RGBColor
 
+from config import INPUT_JSON, OUTPUT_DIR
+
 # Load data
-with open("/home/benliangcs/tw-gov-video/output/selected_articles.json", "r", encoding="utf-8") as f:
+with open(INPUT_JSON, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Create presentation
@@ -38,6 +40,6 @@ for item in data['selected']:
         paragraph.font.size = Pt(24)
 
 # Save
-output_path = "/home/benliangcs/tw-gov-video/output/GovClaw_Intro.pptx"
-prs.save(output_path)
+output_path = OUTPUT_DIR / "GovClaw_Intro.pptx"
+prs.save(str(output_path))
 print(f"PPTX saved to {output_path}")

@@ -1,14 +1,10 @@
 import os
 import json
 import base64
-from pathlib import Path
+import html
 from datetime import datetime
-
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
+from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON, YOUTUBE_URL_FILE
 WEB_DIR = BASE / "docs"
-INPUT_JSON = OUTPUT_DIR / "selected_articles.json"
-YOUTUBE_URL_FILE = OUTPUT_DIR / "latest_youtube_url.txt"
 
 LINE_FRIEND_LINK = "https://page.line.me/290wqpej"
 
@@ -36,7 +32,7 @@ def main():
             </div>
             """
     
-    html = f"""<!DOCTYPE html>
+    page = f"""<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
@@ -275,10 +271,10 @@ def main():
 """
     
     for idx, item in enumerate(items):
-        title = item.get("title", "")
-        script = item.get("script", "")
-        reason = item.get("reason", "")
-        source_url = item.get("source_url", "#")
+        title = html.escape(item.get("title", ""))
+        script = html.escape(item.get("script", ""))
+        reason = html.escape(item.get("reason", ""))
+        source_url = html.escape(item.get("source_url", "#"))
         img_url = item.get("image_url", "")
         image_urls = item.get("image_urls", [])
         is_ai = item.get("is_ai_generated", False)
@@ -334,7 +330,7 @@ def main():
             </div>
             """
             
-        html += f"""
+        page += f"""
         <div class="article-card">
             <h2 class="article-title">{idx+1}. {title}</h2>
             
@@ -348,9 +344,9 @@ def main():
         </div>
 """
 
-    html += f"""
+    page += f"""
     </div>
-    
+
     <div class="footer">
         <div class="footer-content">
             <div class="footer-section">
@@ -463,9 +459,9 @@ def main():
     </div>
     """
     
-    html = html.replace('</div>\n    \n    <div class="footer">', pagination_html + '</div>\n    <div class="footer">')
-    
-    index_path.write_text(html, encoding="utf-8")
+    page = page.replace('</div>\n\n    <div class="footer">', pagination_html + '</div>\n    <div class="footer">')
+
+    index_path.write_text(page, encoding="utf-8")
     
     # Create empty placeholders if archives don't exist
     placeholder_html = """<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="UTF-8"><title>即將更新</title>

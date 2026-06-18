@@ -9,9 +9,7 @@ import google.auth.transport.requests
 from datetime import datetime
 from pathlib import Path
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
-INPUT_JSON = OUTPUT_DIR / "selected_articles.json"
+from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON
 
 credentials, project = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
 PROJECT_ID = project or "doit-dic-itteam"

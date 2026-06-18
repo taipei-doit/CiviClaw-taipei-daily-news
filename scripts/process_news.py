@@ -1,13 +1,24 @@
 import json
+from config import BASE_DIR, OUTPUT_DIR, INPUT_JSON
 
-with open('/home/benliangcs/tw-gov-video/output/parsed_5pm.json', 'r') as f:
-    news = json.load(f)
+parsed_5pm_file = OUTPUT_DIR / "parsed_5pm.json"
+published_file = BASE_DIR / "memory" / "published_articles.txt"
+
+# Ensure directories exist
+parsed_5pm_file.parent.mkdir(parents=True, exist_ok=True)
+published_file.parent.mkdir(parents=True, exist_ok=True)
+
+try:
+    with open(parsed_5pm_file, 'r', encoding='utf-8') as f:
+        news = json.load(f)
+except FileNotFoundError:
+    news = []
 
 # Filter out articles already in published_articles.txt
 published_sns = set()
 published_titles = set()
 try:
-    with open('/home/benliangcs/.openclaw/workspace/memory/published_articles.txt', 'r') as f:
+    with open(published_file, 'r', encoding='utf-8') as f:
         for line in f:
             if '|' in line:
                 sn, title = line.split('|', 1)
@@ -46,10 +57,11 @@ for item in selected:
         "is_ai_generated": True
     })
 
-with open('/home/benliangcs/tw-gov-video/output/selected_articles.json', 'w', encoding='utf-8') as f:
-    json.dump(output, f, ensure_ascii=False, indent=2)
+# Format as {"selected": [...]} to align with downstream scripts
+with open(INPUT_JSON, 'w', encoding='utf-8') as f:
+    json.dump({"selected": output}, f, ensure_ascii=False, indent=2)
 
-with open('/home/benliangcs/.openclaw/workspace/memory/published_articles.txt', 'a', encoding='utf-8') as f:
+with open(published_file, 'a', encoding='utf-8') as f:
     for item in output:
         f.write(f"{item['DataSN']} | {item['title']}\n")
 

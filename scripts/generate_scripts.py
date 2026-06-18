@@ -49,8 +49,14 @@ def ask_gemini(article):
         print(e)
         return {"script": f"為您播報：{article.get('title')}。詳情請見臺北市政府官網。", "reason": "市政動態更新。"}
 
+from config import OUTPUT_DIR, INPUT_JSON
+
 def main():
-    data = json.loads(Path("/home/benliangcs/tw-gov-video/output/top_5.json").read_text())
+    top_5_file = OUTPUT_DIR / "top_5.json"
+    try:
+        data = json.loads(top_5_file.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        data = []
     
     out = []
     for item in data:
@@ -72,7 +78,7 @@ def main():
             "is_ai_generated": False if image_url else True
         })
         
-    Path("/home/benliangcs/tw-gov-video/output/selected_articles.json").write_text(
+    INPUT_JSON.write_text(
         json.dumps({"selected": out}, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 

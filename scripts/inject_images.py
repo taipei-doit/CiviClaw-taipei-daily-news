@@ -2,9 +2,7 @@ import json
 import urllib.request
 from pathlib import Path
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
-INPUT_JSON = OUTPUT_DIR / "selected_articles.json"
+from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON
 
 if not INPUT_JSON.exists():
     print("Files missing.")

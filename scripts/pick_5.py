@@ -1,8 +1,7 @@
 import json
 from pathlib import Path
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
+from config import BASE_DIR as BASE, OUTPUT_DIR
 
 with open(OUTPUT_DIR / "merged_unique.json", "r", encoding="utf-8") as f:
     out = json.load(f)

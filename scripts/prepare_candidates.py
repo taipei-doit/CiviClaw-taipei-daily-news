@@ -2,10 +2,10 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-OUTPUT_DIR = Path.home() / "tw-gov-video" / "output"
+from config import BASE_DIR, OUTPUT_DIR
 NEWS_5PM = OUTPUT_DIR / "news_5pm.json"
 NEWS_12PM = OUTPUT_DIR / "news_12pm.json"
-PUBLISHED_FILE = Path.home() / "tw-gov-video" / "memory" / "published_articles.txt"
+PUBLISHED_FILE = BASE_DIR / "memory" / "published_articles.txt"
 
 def main():
     data = []

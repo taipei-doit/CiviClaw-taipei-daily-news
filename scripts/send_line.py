@@ -1,16 +1,20 @@
 import urllib.request
 import urllib.error
 import json
+import os
 from pathlib import Path
 from datetime import datetime
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
-INPUT_JSON = OUTPUT_DIR / "selected_articles.json"
-YOUTUBE_URL_FILE = OUTPUT_DIR / "latest_youtube_url.txt"
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
-# The long-lived channel access token you provided
-LINE_ACCESS_TOKEN = "OzxY2CAnLdr+y7+5CYXPz+zmn/AzGd8HWK3zMNhwp70zOzLY67nbNAVM4tqlHQCwTiYEKNGQy/t5R9rSR9nB4ba3bcOEMFE8vhduey7UkCIgo8/AXEPewVLwarVDtsYciQukhcCb3rA1Dig+84lbOAdB04t89/1O/w1cDnyilFU="
+from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON, YOUTUBE_URL_FILE
+
+# Read token from environment variable
+LINE_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN", "")
 
 WEB_PORTAL_URL = "https://taipei-doit.github.io/GovClaw-taipei-daily-news/"
 SPOTIFY_URL = "https://open.spotify.com/show/033jJtZiN097aPxw99mHYW"

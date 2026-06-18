@@ -2,9 +2,12 @@ import asyncio
 from playwright.async_api import async_playwright
 import os
 
+from config import OUTPUT_DIR
+
 async def generate_pdf():
-    html_path = "file:///home/benliangcs/tw-gov-video/output/CiviClaw_Presentation.html"
-    pdf_path = "/home/benliangcs/tw-gov-video/output/CiviClaw_Intro.pdf"
+    html_file = OUTPUT_DIR / "CiviClaw_Presentation.html"
+    html_path = f"file:///{html_file.absolute().as_posix()}"
+    pdf_path = str((OUTPUT_DIR / "CiviClaw_Intro.pdf").absolute())
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)

@@ -3,8 +3,9 @@ import requests
 webhook_url = "https://discord.com/api/webhooks/1489170065638035509/zC-HrxYHUdOwIjvhDrusT0I6HmQkF6kTyHsmew7cmPLSIesOgJ9ORvsSlF-s5pz0IZJ6"
 
 files = {}
+from config import OUTPUT_DIR
 for i in range(5):
-    files[f"file{i}"] = open(f"/home/benliangcs/tw-gov-video/output/test_ai_img_{i}.png", "rb")
+    files[f"file{i}"] = open(OUTPUT_DIR / f"test_ai_img_{i}.png", "rb")
 
 content = (
     "Here are 5 purely AI-generated images for real articles that had no official photos, generated safely without touching the main pipeline:\\n\\n"

@@ -2,17 +2,21 @@ import json
 import urllib.request
 import os
 
+from config import BASE_DIR, OUTPUT_DIR
+
 published = set()
-if os.path.exists('/home/benliangcs/.openclaw/workspace/memory/published_articles.txt'):
-    with open('/home/benliangcs/.openclaw/workspace/memory/published_articles.txt', 'r', encoding='utf-8') as f:
+published_file = BASE_DIR / 'memory' / 'published_articles.txt'
+if published_file.exists():
+    with open(published_file, 'r', encoding='utf-8') as f:
         for line in f:
             parts = line.strip().split('|')
             if len(parts) >= 1:
                 published.add(parts[0].strip())
 
 news_12pm = []
-if os.path.exists('/home/benliangcs/tw-gov-video/output/news_12pm.json'):
-    with open('/home/benliangcs/tw-gov-video/output/news_12pm.json', 'r', encoding='utf-8') as f:
+news_12pm_file = OUTPUT_DIR / 'news_12pm.json'
+if news_12pm_file.exists():
+    with open(news_12pm_file, 'r', encoding='utf-8') as f:
         try:
             news_12pm = json.load(f)
         except:

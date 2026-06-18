@@ -2,7 +2,7 @@ import sys
 import json
 from pathlib import Path
 
-OUTPUT_DIR = Path.home() / "tw-gov-video" / "output"
+from config import OUTPUT_DIR
 NEWS_5PM = OUTPUT_DIR / "news_5pm.json"
 NEWS_12PM = OUTPUT_DIR / "news_12pm.json"
 

@@ -2,8 +2,7 @@ import urllib.request
 import json
 from pathlib import Path
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
+from config import BASE_DIR as BASE, OUTPUT_DIR
 URL = "https://www.gov.taipei/OpenData.aspx?SN=ABBF62618F53F8DE"
 
 req = urllib.request.Request(URL, headers={'User-Agent': 'Mozilla/5.0'})

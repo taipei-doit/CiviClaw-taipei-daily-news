@@ -4,9 +4,7 @@ from datetime import datetime
 import os
 import urllib.request
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
-INPUT_JSON = OUTPUT_DIR / "selected_articles.json"
+from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON
 HTML_FILE = OUTPUT_DIR / "slides_playwright.html"
 
 def download_image(url, local_path):
@@ -37,7 +35,7 @@ def generate_html():
     <style>
         @font-face {{
             font-family: 'Dela Local';
-            src: url('file:///home/benliangcs/tw-gov-video/output/DelaGothicOne-Regular.ttf');
+            src: url('file:///{str((OUTPUT_DIR / "DelaGothicOne-Regular.ttf").absolute()).replace("\\", "/")}');
         }}
         
         body, html {{

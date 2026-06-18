@@ -3,8 +3,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
+from config import BASE_DIR as BASE, OUTPUT_DIR
 URL = "https://www.gov.taipei/OpenData.aspx?SN=ABBF62618F53F8DE"
 
 def fetch_data():

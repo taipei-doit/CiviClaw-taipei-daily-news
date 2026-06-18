@@ -11,14 +11,16 @@ from pathlib import Path
 import os
 from playwright.sync_api import sync_playwright
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
-INPUT_JSON = OUTPUT_DIR / "selected_articles.json"
-JP_JSON = OUTPUT_DIR / "selected_articles_jp.json"
-JP_VIDEO = OUTPUT_DIR / "video_jp.mp4"
+from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON, JP_JSON, JP_VIDEO
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 # 11Labs
-API_KEY = "sk_dab768322eb97d8789551989fba23b6ce5ddbdf3e85d847e"
+API_KEY = os.getenv("ELEVENLABS_API_KEY", "")
 VOICE_ID = "4mU4AFOhdaBEWGnnBxL8"
 
 # GCP 
@@ -113,7 +115,7 @@ def create_single_slide_html(slide_type, data, img_path=""):
         # But wait, we can just inject the list. Let's do it hacky since we have 'items' in main, but not here.
         # Actually, let's just make it a static slide for now if we can't easily pass items.
         # Wait, I can read it!
-        with open("/home/benliangcs/tw-gov-video/output/selected_articles_jp.json", "r") as f:
+        with open(JP_JSON, "r", encoding="utf-8") as f:
             try:
                 jp_data = json.load(f)
                 content_items = [i for i in jp_data.get("selected", []) if i.get("type") == "content"]

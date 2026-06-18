@@ -8,12 +8,15 @@ def load_json(path):
             return json.load(f)
     return []
 
-articles_12pm = load_json('/home/benliangcs/tw-gov-video/output/news_12pm.json')
-articles_5pm = load_json('/home/benliangcs/tw-gov-video/output/news_5pm.json')
+from config import BASE_DIR, OUTPUT_DIR
+
+articles_12pm = load_json(str(OUTPUT_DIR / 'news_12pm.json'))
+articles_5pm = load_json(str(OUTPUT_DIR / 'news_5pm.json'))
 
 published = set()
-if os.path.exists('/home/benliangcs/.openclaw/workspace/memory/published_articles.txt'):
-    with open('/home/benliangcs/.openclaw/workspace/memory/published_articles.txt', 'r', encoding='utf-8') as f:
+published_file = BASE_DIR / 'memory' / 'published_articles.txt'
+if published_file.exists():
+    with open(published_file, 'r', encoding='utf-8') as f:
         for line in f:
             parts = line.strip().replace(',', '|').split('|')
             if len(parts) > 0:
@@ -35,6 +38,6 @@ for sn, art in merged.items():
         break
 
 print(f"Total available: {len(merged)}")
-with open('/home/benliangcs/tw-gov-video/output/merged_candidates.json', 'w', encoding='utf-8') as f:
+with open(OUTPUT_DIR / 'merged_candidates.json', 'w', encoding='utf-8') as f:
     json.dump(list(merged.values()), f, ensure_ascii=False, indent=2)
 

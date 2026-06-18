@@ -12,8 +12,7 @@ import sys
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtube"]
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
+from config import BASE_DIR as BASE, OUTPUT_DIR
 SCRIPTS_DIR = BASE / "scripts"
 
 INPUT_JSON = OUTPUT_DIR / "selected_articles.json"

@@ -8,8 +8,7 @@ import google.auth
 import google.auth.transport.requests
 from pathlib import Path
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
+from config import BASE_DIR as BASE, OUTPUT_DIR
 
 credentials, project = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
 PROJECT_ID = project or "doit-dic-itteam"

@@ -10,8 +10,7 @@ from email.utils import formatdate
 ET.register_namespace('itunes', 'http://www.itunes.com/dtds/podcast-1.0.dtd')
 ET.register_namespace('content', 'http://purl.org/rss/1.0/modules/content/')
 
-BASE_DIR = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE_DIR / "output"
+from config import BASE_DIR, OUTPUT_DIR
 DOCS_DIR = BASE_DIR / "docs"
 PODCASTS_DIR = DOCS_DIR / "podcasts"
 RSS_FILE = DOCS_DIR / "podcast.xml"

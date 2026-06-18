@@ -5,8 +5,9 @@ import google.oauth2.credentials
 import google.auth.transport.requests
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
-CLIENT_SECRETS_FILE = "/home/benliangcs/tw-gov-video/scripts/client_secrets.json"
-CREDENTIALS_FILE = "/home/benliangcs/tw-gov-video/scripts/youtube_credentials.json"
+from config import BASE_DIR
+CLIENT_SECRETS_FILE = str(BASE_DIR / "scripts" / "client_secrets.json")
+CREDENTIALS_FILE = str(BASE_DIR / "scripts" / "youtube_credentials.json")
 
 def get_authenticated_service():
     creds = None

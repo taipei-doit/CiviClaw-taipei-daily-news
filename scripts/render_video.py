@@ -3,9 +3,7 @@ import json
 import subprocess
 import os
 
-BASE = Path.home() / "tw-gov-video"
-OUTPUT_DIR = BASE / "output"
-INPUT_JSON = OUTPUT_DIR / "selected_articles.json"
+from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON
 HTML_FILE = OUTPUT_DIR / "slides_playwright.html"
 VIDEO_FILE = OUTPUT_DIR / "video.mp4"
 CONCAT_FILE = OUTPUT_DIR / "concat.txt"

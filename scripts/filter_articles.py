@@ -1,13 +1,19 @@
 import json
 
-with open('/home/benliangcs/tw-gov-video/output/merged_news.json', 'r', encoding='utf-8') as f:
+from config import BASE_DIR, OUTPUT_DIR
+
+merged_news_file = OUTPUT_DIR / 'merged_news.json'
+published_file = BASE_DIR / 'memory' / 'published_articles.txt'
+filtered_news_file = OUTPUT_DIR / 'filtered_news.json'
+
+with open(merged_news_file, 'r', encoding='utf-8') as f:
     articles = json.load(f)
 
 # Load published IDs and titles
 published_ids = set()
 published_titles = set()
 try:
-    with open('/home/benliangcs/.openclaw/workspace/memory/published_articles.txt', 'r', encoding='utf-8') as f:
+    with open(published_file, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
             if not line: continue
@@ -34,5 +40,5 @@ for a in articles:
         filtered_articles.append(a)
 
 print(f"Total: {len(articles)}, Filtered: {len(filtered_articles)}")
-with open('/home/benliangcs/tw-gov-video/output/filtered_news.json', 'w', encoding='utf-8') as f:
+with open(filtered_news_file, 'w', encoding='utf-8') as f:
     json.dump(filtered_articles, f, ensure_ascii=False, indent=2)

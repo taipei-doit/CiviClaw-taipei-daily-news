@@ -1,8 +1,9 @@
 from playwright.sync_api import sync_playwright
 import os
 
-html_path = f"file:///home/benliangcs/tw-gov-video/docs/index.html"
-out_path = "/home/benliangcs/tw-gov-video/output/web_preview.png"
+from config import BASE_DIR, OUTPUT_DIR
+html_path = f"file:///{str((BASE_DIR / 'docs' / 'index.html').absolute()).replace('\\', '/')}"
+out_path = str((OUTPUT_DIR / 'web_preview.png').absolute())
 
 with sync_playwright() as p:
     # Use a mobile viewport size to show how it looks on a phone
