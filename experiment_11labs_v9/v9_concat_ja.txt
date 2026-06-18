@@ -1,0 +1,3 @@
+file 'v9_clip_intro_ja.mp4'
+file 'v9_clip_content_ja.mp4'
+file 'v9_clip_outro_ja.mp4'

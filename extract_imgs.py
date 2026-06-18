@@ -1,0 +1,22 @@
+import urllib.request
+import re
+
+urls = [
+    "https://www.gov.taipei/News_Content.aspx?n=2044902FC839D045&sms=72544237BBE4C5F6&s=145108D13F476FF9",
+    "https://www.gov.taipei/News_Content.aspx?n=2044902FC839D045&sms=72544237BBE4C5F6&s=B4282508654FDFF1",
+    "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=DDA779781380304A"
+]
+
+for url in urls:
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    html = urllib.request.urlopen(req).read().decode('utf-8')
+    match = re.search(r'<img[^>]*class="Isimg"[^>]*src="([^"]+)"', html)
+    if not match:
+        match = re.search(r'<div class="pic">.*?<img[^>]*src="([^"]+)"', html, re.DOTALL)
+    if match:
+        src = match.group(1)
+        if not src.startswith('http'):
+            src = 'https://www.gov.taipei/' + src.lstrip('/')
+        print(f"IMG: {src}")
+    else:
+        print("IMG: NOT FOUND")
