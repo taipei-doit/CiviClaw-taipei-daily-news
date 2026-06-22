@@ -2,7 +2,7 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>臺北每日新聞 (Taipei Daily News)</title>
-    <link>https://float-ben.github.io/GovClaw-taipei-daily-news/</link>
+    <link>https://taipei-doit.github.io/GovClaw-taipei-daily-news/</link>
     <language>zh-TW</language>
     <description>每日為您提供臺北市政府最新鮮、最重要的市政新聞摘要。由 AI 自動精選與配音。</description>
     <itunes:author>CiviClaw</itunes:author>
@@ -11,7 +11,7 @@
       <itunes:email>govclaw@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://float-ben.github.io/GovClaw-taipei-daily-news/line_qr.png"/>
+    <itunes:image href="https://taipei-doit.github.io/GovClaw-taipei-daily-news/line_qr.png"/>
     <itunes:category text="News">
       <itunes:category text="Daily News"/>
     </itunes:category>
@@ -32,7 +32,7 @@
       <pubDate>Wed, 20 May 2026 15:58:39 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-20.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-20.mp3" length="445101" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-20.mp3" length="445101" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-21</title>
@@ -51,7 +51,7 @@
       <pubDate>Thu, 21 May 2026 09:02:59 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-21.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-21.mp3" length="486573" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-21.mp3" length="486573" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-22</title>
@@ -70,7 +70,7 @@
       <pubDate>Fri, 22 May 2026 09:03:25 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-22.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-22.mp3" length="488109" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-22.mp3" length="488109" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-23</title>
@@ -89,7 +89,7 @@
       <pubDate>Sat, 23 May 2026 12:28:30 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-23.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-23.mp3" length="449229" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-23.mp3" length="449229" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-24</title>
@@ -108,7 +108,7 @@
       <pubDate>Sun, 24 May 2026 09:54:38 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-24.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-24.mp3" length="451053" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-24.mp3" length="451053" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-25</title>
@@ -127,7 +127,7 @@
       <pubDate>Mon, 25 May 2026 09:04:09 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-25.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-25.mp3" length="603021" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-25.mp3" length="603021" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-26</title>
@@ -146,7 +146,7 @@
       <pubDate>Tue, 26 May 2026 09:03:41 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-26.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-26.mp3" length="632109" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-26.mp3" length="632109" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-27</title>
@@ -165,7 +165,7 @@
       <pubDate>Wed, 27 May 2026 09:03:20 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-27.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-27.mp3" length="626541" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-27.mp3" length="626541" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-28</title>
@@ -184,7 +184,7 @@
       <pubDate>Thu, 28 May 2026 09:03:51 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-28.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-28.mp3" length="591501" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-28.mp3" length="591501" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-29</title>
@@ -203,7 +203,7 @@
       <pubDate>Fri, 29 May 2026 09:03:10 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-29.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-29.mp3" length="491853" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-29.mp3" length="491853" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-30</title>
@@ -222,7 +222,7 @@
       <pubDate>Sat, 30 May 2026 09:03:15 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-30.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-30.mp3" length="559149" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-30.mp3" length="559149" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-05-31</title>
@@ -241,7 +241,7 @@
       <pubDate>Sun, 31 May 2026 09:03:09 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-05-31.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-31.mp3" length="539661" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-05-31.mp3" length="539661" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-01</title>
@@ -260,7 +260,7 @@
       <pubDate>Mon, 01 Jun 2026 09:33:49 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-01.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-01.mp3" length="511533" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-01.mp3" length="511533" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-02</title>
@@ -279,7 +279,7 @@
       <pubDate>Tue, 02 Jun 2026 09:03:43 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-02.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-02.mp3" length="531501" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-02.mp3" length="531501" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-03</title>
@@ -298,7 +298,7 @@
       <pubDate>Wed, 03 Jun 2026 09:03:36 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-03.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-03.mp3" length="597741" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-03.mp3" length="597741" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-04</title>
@@ -317,7 +317,7 @@
       <pubDate>Thu, 04 Jun 2026 09:03:19 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-04.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-04.mp3" length="376941" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-04.mp3" length="376941" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-05</title>
@@ -336,7 +336,7 @@
       <pubDate>Fri, 05 Jun 2026 09:03:15 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-05.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-05.mp3" length="459789" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-05.mp3" length="459789" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-06</title>
@@ -355,7 +355,7 @@
       <pubDate>Sat, 06 Jun 2026 09:03:20 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-06.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-06.mp3" length="464589" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-06.mp3" length="464589" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-07</title>
@@ -374,7 +374,7 @@
       <pubDate>Sun, 07 Jun 2026 09:03:34 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-07.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-07.mp3" length="495789" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-07.mp3" length="495789" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-08</title>
@@ -393,7 +393,7 @@
       <pubDate>Mon, 08 Jun 2026 09:03:42 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-08.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-08.mp3" length="463821" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-08.mp3" length="463821" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-09</title>
@@ -410,11 +410,11 @@
 勇奪國際雙金的臺北國際龍舟錦標賽即將開跑！蔣萬安市長親自為龍舟點睛祭江，邀請五千名國內外好手齊聚大佳河濱公園。端午連假別忘了來現場感受熱血賽事與熱鬧的嘉年華活動喔！
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
       <pubDate>Tue, 09 Jun 2026 09:02:40 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-09.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-09.mp3" length="498669" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-09.mp3" length="498669" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-10</title>
@@ -431,11 +431,11 @@ https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
 台北水舞嘉年華將於十三日在錫口碼頭彩虹橋盛大開幕。首場推出結合煙火與噴火龍的「水火共舞」限定展演，搭配經典音樂劇配樂及水幕投影，為民眾帶來震撼的沉浸式體驗，歡迎市民搭乘大眾運輸前往欣賞。
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
       <pubDate>Wed, 10 Jun 2026 09:03:07 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-10.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-10.mp3" length="518733" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-10.mp3" length="518733" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-11</title>
@@ -452,11 +452,11 @@ https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
 臺北市長蔣萬安日前會晤捷克參議院議長韋德齊，雙方就智慧城市、教育福利及軌道運輸深入交流。隨著星宇航空八月直航布拉格，加上臺北穿山甲在捷克成功繁衍，未來臺捷兩地的互動將更加緊密！
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
       <pubDate>Thu, 11 Jun 2026 09:04:06 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-11.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-11.mp3" length="498861" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-11.mp3" length="498861" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-12</title>
@@ -473,11 +473,11 @@ https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
 捷運信義線東延段已順利完成初勘，臺北市捷運局表示正依規定進行消防安全檢查與設備改善。市府強調絕對會在確保系統安全無虞的前提下，爭取早日通車，以回應市民長久以來的期待。
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
       <pubDate>Fri, 12 Jun 2026 09:02:53 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-12.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-12.mp3" length="473229" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-12.mp3" length="473229" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-13</title>
@@ -494,11 +494,11 @@ https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
 北市動物園的雄性小貓熊「Yaffa奇奇」已平安抵達新加坡！這次跨國調度旨在維持東南亞瀕危物種的基因多樣性，也期待奇奇在新家順利展開健康繁衍的保育任務。
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
       <pubDate>Sat, 13 Jun 2026 09:02:46 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-13.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-13.mp3" length="422061" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-13.mp3" length="422061" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-14</title>
@@ -515,11 +515,11 @@ https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
 車主注意！北市第四期空氣品質維護區七月一日上路，擴及南京、仁愛與信義路。未符規定的車輛進入管制路段，首次最高開罰五千元。請盡速完成排氣檢驗，一起維護好空氣，避免荷包失血！
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
       <pubDate>Sun, 14 Jun 2026 09:02:54 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-14.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-14.mp3" length="521901" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-14.mp3" length="521901" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-15</title>
@@ -536,11 +536,11 @@ https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
 第三屆水舞嘉年華於松山錫口碼頭華麗登場，首創「橋面加河面」雙水舞共演與互動噴泉。市長蔣萬安期盼結合經典音樂與周邊夜市商圈，將淡水河岸打造為媲美塞納河的國際級親水休憩廊帶。
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
       <pubDate>Mon, 15 Jun 2026 09:03:25 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-15.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-15.mp3" length="497133" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-15.mp3" length="497133" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-16</title>
@@ -557,11 +557,11 @@ https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
 迎接寶可夢遊戲十週年，臺北捷運與寶可夢攜手將心中山線形公園打造為專屬主題場域。現場不僅設置超夢打卡亮點與一比一寶可夢裝置，更有豐富的闖關任務與專屬悠遊卡，吸引全球玩家朝聖。
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
       <pubDate>Tue, 16 Jun 2026 12:13:04 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-16.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-16.mp3" length="473229" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-16.mp3" length="473229" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-17</title>
@@ -578,11 +578,11 @@ https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
 一對來臺自由行的菲律賓籍母子，在北車轉乘時不慎走散。捷運警察獲報後迅速通報各站協尋，短短十分鐘內便找到七歲幼童，讓母子倆順利團圓並趕上返國班機，展現臺灣溫暖人情味。
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://float-ben.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
       <pubDate>Wed, 17 Jun 2026 09:04:02 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-06-17.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://float-ben.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-17.mp3" length="457869" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-06-17.mp3" length="457869" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-06-18</title>
