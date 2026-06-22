@@ -5,9 +5,9 @@
     <link>https://float-ben.github.io/GovClaw-taipei-daily-news/</link>
     <language>zh-TW</language>
     <description>每日為您提供臺北市政府最新鮮、最重要的市政新聞摘要。由 AI 自動精選與配音。</description>
-    <itunes:author>GovClaw AI</itunes:author>
+    <itunes:author>CiviClaw</itunes:author>
     <itunes:owner>
-      <itunes:name>GovClaw AI</itunes:name>
+      <itunes:name>CiviClaw</itunes:name>
       <itunes:email>govclaw@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
