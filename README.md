@@ -45,17 +45,14 @@ cp .env.example .env
 # LINE 官方帳號設定
 LINE_CHANNEL_ACCESS_TOKEN=您的_LINE_Channel_Access_Token
 
-# GCP 憑證與專案設定 (主要生產線 TTS 使用)
+# GCP 憑證與專案設定 (主要生產線 TTS 與配圖使用)
 # 系統會讀取 Google Application Default Credentials，需在環境中完成 gcloud auth application-default login
+# 以下為選填：PROJECT_ID 未設定時取用 ADC 預設專案；LOCATION 預設 us-central1
+# GCP_PROJECT_ID=您的_GCP_專案ID
+# GCP_LOCATION=us-central1
 
-# 雅婷 TTS (實驗性/歷史測試腳本使用，選用)
-YATING_TTS_API_KEY=您的_雅婷_TTS_API_Key
-
-# ElevenLabs (日文/英文配音，選用)
-ELEVENLABS_API_KEY=您的_ElevenLabs_API_Key
-
-# 專案工作資料夾（若不設定，預設為本專案的根目錄）
-TW_GOV_VIDEO_BASE=C:\Users\username\專案路徑
+# 專案工作資料夾（選填；若不設定，預設為本專案的根目錄）
+# TW_GOV_VIDEO_BASE=/path/to/repo
 ```
 
 ---
@@ -75,8 +72,9 @@ TW_GOV_VIDEO_BASE=C:\Users\username\專案路徑
 │   ├── deploy_podcast.py# Podcast RSS 生成與同步
 │   ├── send_line.py     # LINE 官方帳號廣播
 │   └── ...
-├── docs/                # GitHub Pages 靜態網站輸出 (index.html、podcast.xml、podcasts/ 音檔等)
-└── experiments/         # 實驗與測試腳本 (已從版控中排除)
+└── docs/                # GitHub Pages 靜態網站輸出 (index.html、podcast.xml、podcasts/ 音檔等)
+
+備註：實驗/測試產物（如 experiments/、output/、node_modules/）已列入 .gitignore，不進版控。
 ```
 
 ## 自動化排程執行 (Heartbeat)

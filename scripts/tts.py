@@ -14,13 +14,14 @@ from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON
 
 credentials, project = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
 PROJECT_ID = project or os.getenv("GCP_PROJECT_ID")
+LOCATION = os.getenv("GCP_LOCATION", "us-central1")
 
 def synthesize_text(text, out_file):
     auth_req = google.auth.transport.requests.Request()
     credentials.refresh(auth_req)
     token = credentials.token
 
-    url = f"https://us-central1-aiplatform.googleapis.com/v1/projects/{PROJECT_ID}/locations/us-central1/publishers/google/models/gemini-3.1-flash-tts-preview:generateContent"
+    url = f"https://{LOCATION}-aiplatform.googleapis.com/v1/projects/{PROJECT_ID}/locations/{LOCATION}/publishers/google/models/gemini-3.1-flash-tts-preview:generateContent"
 
     # We will use "Puck" for energetic male voice.
     # We replace the break tags as Gemini TTS does not officially support SSML <break> directly in prompt, 

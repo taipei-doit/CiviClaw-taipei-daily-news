@@ -16,6 +16,9 @@ scripts/*credentials*.json
 secrets/
 dotenv
 
+# Node
+node_modules/
+
 # Python
 __pycache__/
 *.pyc

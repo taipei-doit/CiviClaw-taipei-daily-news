@@ -11,10 +11,10 @@ from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON
 
 credentials, project = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
 PROJECT_ID = project or os.getenv("GCP_PROJECT_ID")
-LOCATION = "us-central1"
+LOCATION = os.getenv("GCP_LOCATION", "us-central1")
 
 def get_clean_visual_prompt(title, token):
-    url = f"https://us-central1-aiplatform.googleapis.com/v1/projects/{PROJECT_ID}/locations/us-central1/publishers/google/models/gemini-2.5-flash:generateContent"
+    url = f"https://{LOCATION}-aiplatform.googleapis.com/v1/projects/{PROJECT_ID}/locations/{LOCATION}/publishers/google/models/gemini-2.5-flash:generateContent"
     
     # We ask Gemini to generate a purely visual, generic stock-photo style subject 
     # based on the headline, completely avoiding any news/text implications.
@@ -44,7 +44,7 @@ def generate_image(title, idx):
     clean_subject = get_clean_visual_prompt(title, token)
     print(f"Gemini decided the visual subject for '{title}' is: '{clean_subject}'")
     
-    url = f"https://us-central1-aiplatform.googleapis.com/v1/projects/{PROJECT_ID}/locations/us-central1/publishers/google/models/imagen-3.0-generate-002:predict"
+    url = f"https://{LOCATION}-aiplatform.googleapis.com/v1/projects/{PROJECT_ID}/locations/{LOCATION}/publishers/google/models/imagen-3.0-generate-002:predict"
     req = urllib.request.Request(url, method="POST")
     req.add_header("Authorization", f"Bearer {token}")
     req.add_header("Content-Type", "application/json; charset=utf-8")
