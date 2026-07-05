@@ -3,6 +3,9 @@ import json
 from datetime import datetime
 import os
 import urllib.request
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 from config import BASE_DIR as BASE, OUTPUT_DIR, INPUT_JSON
 HTML_FILE = OUTPUT_DIR / "slides_playwright.html"
@@ -24,6 +27,7 @@ def generate_html():
     data = json.loads(INPUT_JSON.read_text(encoding="utf-8"))
     items = data.get("selected", [])
     today = datetime.now().strftime("%Y-%m-%d")
+    font_path = str((OUTPUT_DIR / "DelaGothicOne-Regular.ttf").absolute()).replace("\\", "/")
 
     html = f"""<!DOCTYPE html>
 <html lang="zh-Hant">
@@ -35,7 +39,7 @@ def generate_html():
     <style>
         @font-face {{
             font-family: 'Dela Local';
-            src: url('file:///{str((OUTPUT_DIR / "DelaGothicOne-Regular.ttf").absolute()).replace("\\", "/")}');
+            src: url('file:///{font_path}');
         }}
         
         body, html {{
