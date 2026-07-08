@@ -1,4 +1,4 @@
-# GovClaw Taipei Daily News - Python dependencies
+# CiviClaw Taipei Daily News - Python dependencies
 # Install with: pip install -r requirements.txt
 # (also run `playwright install chromium` once after installing)
 

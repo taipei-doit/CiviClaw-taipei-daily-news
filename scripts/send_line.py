@@ -32,7 +32,7 @@ from config import INPUT_JSON, STATE_FILE, YOUTUBE_URL_FILE
 
 LINE_BROADCAST_URL = "https://api.line.me/v2/bot/message/broadcast"
 
-WEB_PORTAL_URL = "https://taipei-doit.github.io/GovClaw-taipei-daily-news/"
+WEB_PORTAL_URL = "https://taipei-doit.github.io/CiviClaw-taipei-daily-news/"
 SPOTIFY_URL = "https://open.spotify.com/show/033jJtZiN097aPxw99mHYW"
 YOUTUBE_FALLBACK_URL = "https://www.youtube.com/@CiviClaw"
 
@@ -240,7 +240,7 @@ def update_heartbeat(state_file: Path, date_label: str) -> None:
 
 
 def parse_args(argv=None) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="GovClaw 每日 LINE 廣播")
+    parser = argparse.ArgumentParser(description="CiviClaw 每日 LINE 廣播")
     parser.add_argument("--dry-run", action="store_true", help="組裝並驗證訊息，但不呼叫 LINE API、不更新狀態。")
     return parser.parse_args(argv)
 
