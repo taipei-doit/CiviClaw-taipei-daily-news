@@ -266,7 +266,7 @@ def main():
     <div class="container">
         {youtube_embed}
         <div style="text-align: center; margin-bottom: 30px;">
-            <a href="https://www.youtube.com/@CiviClaw" target="_blank" class="btn" style="background: #e74c3c;">📺 訂閱我們的 YouTube 頻道</a>
+            <a href="https://www.youtube.com/@civiclaw-tp" target="_blank" class="btn" style="background: #e74c3c;">📺 訂閱我們的 YouTube 頻道</a>
         </div>
 """
     

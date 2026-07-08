@@ -34,7 +34,7 @@ LINE_BROADCAST_URL = "https://api.line.me/v2/bot/message/broadcast"
 
 WEB_PORTAL_URL = "https://taipei-doit.github.io/CiviClaw-taipei-daily-news/"
 SPOTIFY_URL = "https://open.spotify.com/show/033jJtZiN097aPxw99mHYW"
-YOUTUBE_FALLBACK_URL = "https://www.youtube.com/@CiviClaw"
+YOUTUBE_FALLBACK_URL = "https://www.youtube.com/@civiclaw-tp"
 
 # YouTube 連結白名單：只接受 https + 這些 host，並擋開放轉址路徑。
 ALLOWED_YOUTUBE_HOSTS = frozenset({"youtube.com", "www.youtube.com", "m.youtube.com", "youtu.be"})
