@@ -1,4 +1,4 @@
-# GovClaw-taipei-daily-news (臺北市政府每日新聞摘要自動化生產線)
+# CiviClaw-taipei-daily-news (臺北市政府每日新聞摘要自動化生產線)
 
 本專案提供台北市政府每日新聞摘要的自動化處理流程，包含「抓取開放資料 → LLM 選文與撰寫播報稿 → 語音合成 (TTS) 與 AI 配圖 → 自動生成新聞影片 → 自動發布至 YouTube、Podcast 平台、網站與 LINE 官方帳號」。
 
