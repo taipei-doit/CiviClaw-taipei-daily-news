@@ -1,62 +1,64 @@
 {
   "selected": [
     {
-      "title": "因應「巴威」颱風進逼北市建管處呼籲市民、商家及建築工地全面加強防颱自主檢查",
-      "DataSN": "9670164",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=7336DAF79DDFC95F",
-      "script": "強烈颱風巴威即將逼近，預計本週五、六對北部地區影響最為劇烈！北市建管處呼籲全體市民、商家及建築工地務必提前做好防颱自主檢查，加固盆栽、遮雨棚與看板，並要求工地回報安全措施。請大家攜手合作，隨時撥打1999熱線回報緊急突發狀況，共同守護城市安全。",
-      "reason": "This is a critical public safety advisory regarding the impending powerful Typhoon Bavi. It provides essential precautionary guidelines for all citizens, business owners, and construction sites to ensure urban safety.",
-      "image_url": "/home/doitdigitalinnovation/CiviClaw-taipei-daily-news/output/ai_article_0.png",
+      "title": "主持巴威颱風工作會報 蔣萬安：各防災單位務必戒慎恐懼、做最壞打算、做最萬全準備",
+      "DataSN": "9672205",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=1F5C8D0E06306FA3",
+      "script": "面對25年來暴風圈半徑最大的中度颱風巴威進逼，臺北市長蔣萬安親自主持防颱會報，下令各單位「做最壞打算、做最萬全準備」。市府已宣布今日全市停班停課，並提醒市民密切注意颱風動態，做好各項防颱應變措施，切勿掉以輕心。",
+      "reason": "這是今天最核心的市政與防災消息，攸關全體臺北市民的生命財產安全與停班停課決策。",
+      "image_url": "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9672205/8f225309-8eca-4ea1-a71b-94b4a2640b14.jpg",
+      "image_urls": [
+        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9672205/8f225309-8eca-4ea1-a71b-94b4a2640b14.jpg",
+        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9672205/7c6aada1-882d-4163-8fac-fe2282d3ed68.jpg"
+      ],
+      "is_ai_generated": false
+    },
+    {
+      "title": "巴威龐大環流進逼北台灣！北市建管處發布三大面向防颱指引，呼籲市民與營建工地落實自主檢查",
+      "DataSN": "9672293",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=DFB900BF48B93B83",
+      "script": "巴威颱風極為龐大的環流對北台灣構成嚴重致災威脅，臺北市建管處發布三大防颱指引，強烈呼籲營建工地落實自主檢查。建管處特別叮嚀，必須加強竹架外牆、施工帆布及臨時廣告招牌的固定，市民也應巡檢自家陽台盆栽，共同防範強風造成的墜落危險。",
+      "reason": "颱風即將登陸，建管處發布的具體防颱指引和營建安全要求，對預防風災事故有高度實用價值。",
+      "image_url": "/home/doitdigitalinnovation/GovClaw-taipei-daily-news/output/ai_article_1.png",
       "image_urls": [],
       "is_ai_generated": true
     },
     {
-      "title": "網購可以智取  臺北地所可以智送",
-      "DataSN": "9669854",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=AB9949A77E8B126D",
-      "script": "網購能智取，現在地政送件也能智送了！臺北市政府首創「智能送件櫃員機」，在松山及中山地政事務所率先上線，讓地政代理人僅需驗證、帶入、投件三步驟即可自助送件。這項創新不僅能大幅減少排隊等待時間，還能有效分流臨櫃人潮，預計年底前將推廣至全市六大事務所，邁入地政智慧新時代！",
-      "reason": "Highlights a major smart city/public service achievement in Taipei, introducing the nation's first automatic document-submission terminal to streamline administrative workflows and reduce wait times.",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/305/relpic/10162/9669854/97e54346-0c0a-4498-84a2-9334285eb7c7.png",
+      "title": "因應巴威颱風來襲  臺北市7/10(週五)停收垃圾",
+      "DataSN": "9672193",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=698B35E50E9B29FE",
+      "script": "因應巴威颱風停班停課，臺北市環保局為保障市民及清潔隊員安全，今日暫停收運垃圾、廚餘及回收物，同時30處限時收受點也暫停開放。環保局提醒民眾暫時將垃圾留置家中，避免風雨中外出丟棄，攜手維護市容整潔與自身安全。",
+      "reason": "垃圾收運暫停是與市民日常生活最直接相關的防災民生訊息，必須特別告知。",
+      "image_url": "https://www-ws.gov.taipei/001/Upload/363/relpic/10162/9672193/78b97957-be16-4438-82d6-afe577414011.png",
       "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/305/relpic/10162/9669854/97e54346-0c0a-4498-84a2-9334285eb7c7.png",
-        "https://www-ws.gov.taipei/001/Upload/305/relpic/10162/9669854/98c369ce-8689-4a48-8f2d-792e38920e1f.png"
+        "https://www-ws.gov.taipei/001/Upload/363/relpic/10162/9672193/78b97957-be16-4438-82d6-afe577414011.png"
       ],
       "is_ai_generated": false
     },
     {
-      "title": "7月7日珍縮版太陽現身，天文館揭秘地球過遠日點的反差萌！",
-      "DataSN": "9669734",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=3E84F950AD7C909E",
-      "script": "明天就是七月七號了，您知道當天將迎來一年中地球離太陽最遠的「遠日點」嗎？臺北天文館特別揭秘這場「最遠卻最熱」的天文反差萌，並指出當天太陽視直徑會比一月份縮小百分之三點三。天文館誠摯邀請市民朋友在炎炎夏日中，一同透過科學視角欣賞這難得的「珍縮版」太陽奇景！",
-      "reason": "An educational and highly engaging science article from the Taipei Astronomical Museum, explaining why the Earth is furthest from the Sun during the peak of summer, perfect for general public interest.",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/439/relpic/10162/9669734/a08a6930-9e4e-411c-8f14-e1db6d9dca24.jpg",
+      "title": "「Show Up 台北」再掀熱潮！串聯4大場館打造盛夏城市應援體驗7/17起登錄明星賽門票領600元現金折抵券 抽飛首爾雙人來回機票！",
+      "DataSN": "9672070",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=A888F9376AC4DB9A",
+      "script": "2026中華職棒明星賽熱血來襲，臺北市政府推出「Show Up 台北」串聯活動，凡登錄明星賽門票即可領取600元現金折抵券，還能加碼抽首爾雙人來回機票！歡迎全國球迷到大巨蛋、小巨蛋等四大場館熱情應援，並深度體驗台北商圈與夜市的盛夏魅力。",
+      "reason": "此活動結合棒球運動、四大藝文場館與商圈優惠，具備極高的市民參與度與暑期觀光吸引力。",
+      "image_url": "https://www-ws.gov.taipei/001/Upload/409/relpic/10162/9672070/9ecda088-4621-4f7b-9a98-b6ec1ba32bcd.jpg",
       "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/439/relpic/10162/9669734/a08a6930-9e4e-411c-8f14-e1db6d9dca24.jpg",
-        "https://www-ws.gov.taipei/001/Upload/439/relpic/10162/9669734/d3543649-73d0-45be-a4cb-2b7944a3fa28.jpg"
+        "https://www-ws.gov.taipei/001/Upload/409/relpic/10162/9672070/9ecda088-4621-4f7b-9a98-b6ec1ba32bcd.jpg",
+        "https://www-ws.gov.taipei/001/Upload/409/relpic/10162/9672070/a9780fe4-8724-403e-8733-b8a761e0feab.jpg"
       ],
       "is_ai_generated": false
     },
     {
-      "title": "臺北電臺「戀戀臺北夏日演唱會」重現臺語流行音樂百年經典  7/18中山堂盛大登場、7/10開放免費索票",
-      "DataSN": "9669349",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=73BC61ADDE4FB0B2",
-      "script": "為慶祝成立六十五週年，臺北電台將於七月十八日在中山堂舉辦「戀戀臺北夏日演唱會」！本次盛會以經典台語流行音樂人的故事為主題，邀請王瑞霞、王中平等實力派唱將再現鄧雨賢與楊三郎等大師的百年不朽旋律。活動將於七月十日上午十點起開放免費索票，喜愛台語經典金曲的市民朋友千萬別錯過這場消暑音樂饗宴！",
-      "reason": "An appealing cultural and community event celebrating Taipei Broadcasting Station's 65th anniversary, offering free tickets and reviving classic Taiwanese music heritage.",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/308/relpic/10162/9669349/3971f56a-e72d-4dfe-9a97-51bd05c855cc.jpg",
+      "title": "吃美食拍影片拿禮券!「2026臺北客家美食店家推薦」短影音徵件熱烈開跑",
+      "DataSN": "9672095",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=3B83A58B04C9C65C",
+      "script": "臺北市客委會主辦的客家美食短影音徵件活動開跑，以「客家炒當香」為主題，邀請民眾用鏡頭記錄台北市客家餐廳中的經典「客家小炒」美味。拍攝影片推薦客家美食並參與票選，就有機會贏得豐富禮券，快來展現你心中的極致客家風華！",
+      "reason": "推廣在地客家飲食文化，並結合時下流行的短影音創作，非常活潑有趣且互動性高。",
+      "image_url": "https://www-ws.gov.taipei/001/Upload/380/relpic/10162/9672095/4846edfd-cbaa-45d0-b2e1-166375308c6e.jpg",
       "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/308/relpic/10162/9669349/3971f56a-e72d-4dfe-9a97-51bd05c855cc.jpg"
+        "https://www-ws.gov.taipei/001/Upload/380/relpic/10162/9672095/4846edfd-cbaa-45d0-b2e1-166375308c6e.jpg"
       ],
       "is_ai_generated": false
-    },
-    {
-      "title": "中聯油脂大豆沙拉油「苯駢芘」超標  臺北市衛生局公布北市下游業者",
-      "DataSN": "9669559",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=C48B29CBE977FC66",
-      "script": "食安警戒！針對中聯大豆沙拉油致癌物「苯駢芘」超標事件，臺北市衛生局經過連續四天的嚴密調查，公開了受影響的下游廠商與學校名單。市府已在衛生局官網設立專區進行滾動式更新，協助民眾與業者全面排查、回收問題油品。北市府強調將以最高標準捍衛市民的飲食安全，提醒消費者與店家密切留意相關公告。",
-      "reason": "A critical food safety issue affecting public health and school meals in Taipei. This demonstrates active municipal supervision and open-data disclosure to protect citizens.",
-      "image_url": "/home/doitdigitalinnovation/CiviClaw-taipei-daily-news/output/ai_article_4.png",
-      "image_urls": [],
-      "is_ai_generated": true
     }
   ]
 }
