@@ -1,64 +1,56 @@
 {
   "selected": [
     {
-      "title": "主持巴威颱風工作會報 蔣萬安：各防災單位務必戒慎恐懼、做最壞打算、做最萬全準備",
-      "DataSN": "9672205",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=1F5C8D0E06306FA3",
-      "script": "面對25年來暴風圈半徑最大的中度颱風巴威進逼，臺北市長蔣萬安親自主持防颱會報，下令各單位「做最壞打算、做最萬全準備」。市府已宣布今日全市停班停課，並提醒市民密切注意颱風動態，做好各項防颱應變措施，切勿掉以輕心。",
-      "reason": "這是今天最核心的市政與防災消息，攸關全體臺北市民的生命財產安全與停班停課決策。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9672205/8f225309-8eca-4ea1-a71b-94b4a2640b14.jpg",
-      "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9672205/8f225309-8eca-4ea1-a71b-94b4a2640b14.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9672205/7c6aada1-882d-4163-8fac-fe2282d3ed68.jpg"
-      ],
-      "is_ai_generated": false
+      "title": "臺北亞洲柔道公開賽7/12盛大開戰！23國頂尖好手齊聚　東奧金牌濱田尚里跨海參戰",
+      "DataSN": "9672366",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=D43CFE05118EDF9E",
+      "script": "2026年臺北亞洲柔道公開賽將於明天在臺北體育館點燃戰火！雖然受到巴威颱風影響將賽程調整為一日舉行，但本次仍吸引了全球23個國家、共243名頂尖好手齊聚臺北，其中更包括東京奧運女子金牌得主濱田尚里，為賽事增添頂級光彩。市民朋友只要在明天免費入場觀賽，填寫問卷還有機會抽中日本來回機票，歡迎踴躍進場為臺灣選手加油！",
+      "reason": "此賽事為國際奧運積分站，更迎來奧運金牌得主參戰，極具國際能見度與休閒觀賞價值，且附帶機票抽獎活動，對市民深具吸引力。",
+      "image_url": "/home/doitdigitalinnovation/GovClaw-taipei-daily-news/output/ai_article_0.png",
+      "image_urls": [],
+      "is_ai_generated": true
     },
     {
-      "title": "巴威龐大環流進逼北台灣！北市建管處發布三大面向防颱指引，呼籲市民與營建工地落實自主檢查",
-      "DataSN": "9672293",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=DFB900BF48B93B83",
-      "script": "巴威颱風極為龐大的環流對北台灣構成嚴重致災威脅，臺北市建管處發布三大防颱指引，強烈呼籲營建工地落實自主檢查。建管處特別叮嚀，必須加強竹架外牆、施工帆布及臨時廣告招牌的固定，市民也應巡檢自家陽台盆栽，共同防範強風造成的墜落危險。",
-      "reason": "颱風即將登陸，建管處發布的具體防颱指引和營建安全要求，對預防風災事故有高度實用價值。",
+      "title": "散布臺北車站無法進出假訊息　 北捷嚴正譴責並已通報警方查處 ",
+      "DataSN": "9672364",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=978906212BECB08E",
+      "script": "網路瘋傳臺北車站因風雨無法進出的消息，臺北捷運公司今天嚴正譴責並澄清這完全是假訊息！有網友刻意使用過去納莉風災時的舊照片移花接木，刻意混淆視聽，北捷已將相關事證通報警方，將依社會秩序維護法及災害防救法追究查處。北捷呼籲市民切勿隨意散布謠言，一切防颱營運資訊請以官方公告為準。",
+      "reason": "針對颱風期間嚴重影響社會安定的臺北車站淹水假謠言，台北捷運迅速澄清並報警，此新聞具備極高的即時澄清與防詐宣導價值。",
       "image_url": "/home/doitdigitalinnovation/GovClaw-taipei-daily-news/output/ai_article_1.png",
       "image_urls": [],
       "is_ai_generated": true
     },
     {
-      "title": "因應巴威颱風來襲  臺北市7/10(週五)停收垃圾",
-      "DataSN": "9672193",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=698B35E50E9B29FE",
-      "script": "因應巴威颱風停班停課，臺北市環保局為保障市民及清潔隊員安全，今日暫停收運垃圾、廚餘及回收物，同時30處限時收受點也暫停開放。環保局提醒民眾暫時將垃圾留置家中，避免風雨中外出丟棄，攜手維護市容整潔與自身安全。",
-      "reason": "垃圾收運暫停是與市民日常生活最直接相關的防災民生訊息，必須特別告知。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/363/relpic/10162/9672193/78b97957-be16-4438-82d6-afe577414011.png",
+      "title": "巴威颱風暴風圈籠罩！北市建管處再發嚴厲警告：施工圍籬、鷹架已一再提醒安全，一旦倒塌一律依法重罰甚或勒令停工",
+      "DataSN": "9672336",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=C557140BE070233D",
+      "script": "巴威颱風暴風圈已正式進入臺灣北部陸地，帶來的強風豪雨對公共安全構成嚴重威脅。臺北市建築管理工程處今天發出嚴厲警告，要求全市營建工地立即落實防颱自主檢查，加強固定施工圍籬與鷹架。若有發生倒塌或損壞等危及公安情事，建管處將依法予以重罰甚至勒令停工，呼籲所有工地負責人切勿心存僥倖！",
+      "reason": "巴威颱風帶來的15級強風對營建工地是極大考驗，建管處的重罰與勒令停工警告，展現維護市民公共安全的強硬決心。",
+      "image_url": "/home/doitdigitalinnovation/GovClaw-taipei-daily-news/output/ai_article_2.png",
+      "image_urls": [],
+      "is_ai_generated": true
+    },
+    {
+      "title": "臺北自來水事業處直潭壩 7月11日7時30分  發布「水庫放水警戒」細胞廣播",
+      "DataSN": "9672334",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=33AA54015EC940D8",
+      "script": "受到巴威颱風帶來的豪雨影響，新店溪上游河川流量急速增加，臺北自來水事業處直潭壩宣布自今天上午八點半起，增加調節性放流至每秒約500立方公尺。北水處已透過行政院細胞廣播服務發送『水庫放水警戒』簡訊，提醒新店溪沿岸兩側及直潭壩下游的民眾注意安全，並請務必遠離河道區域以策安全。",
+      "reason": "細胞廣播是極高層級的防災警訊，直潭壩調節性放水攸關新店溪沿線（雙北地區）市民的生命財產安全，訊息急迫且關鍵。",
+      "image_url": "https://www-ws.gov.taipei/001/Upload/306/relpic/10162/9672334/d08c2e26-35e2-4207-a78c-1cd0665cd2f7.jpg",
       "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/363/relpic/10162/9672193/78b97957-be16-4438-82d6-afe577414011.png"
+        "https://www-ws.gov.taipei/001/Upload/306/relpic/10162/9672334/d08c2e26-35e2-4207-a78c-1cd0665cd2f7.jpg"
       ],
       "is_ai_generated": false
     },
     {
-      "title": "「Show Up 台北」再掀熱潮！串聯4大場館打造盛夏城市應援體驗7/17起登錄明星賽門票領600元現金折抵券 抽飛首爾雙人來回機票！",
-      "DataSN": "9672070",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=A888F9376AC4DB9A",
-      "script": "2026中華職棒明星賽熱血來襲，臺北市政府推出「Show Up 台北」串聯活動，凡登錄明星賽門票即可領取600元現金折抵券，還能加碼抽首爾雙人來回機票！歡迎全國球迷到大巨蛋、小巨蛋等四大場館熱情應援，並深度體驗台北商圈與夜市的盛夏魅力。",
-      "reason": "此活動結合棒球運動、四大藝文場館與商圈優惠，具備極高的市民參與度與暑期觀光吸引力。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/409/relpic/10162/9672070/9ecda088-4621-4f7b-9a98-b6ec1ba32bcd.jpg",
-      "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/409/relpic/10162/9672070/9ecda088-4621-4f7b-9a98-b6ec1ba32bcd.jpg",
-        "https://www-ws.gov.taipei/001/Upload/409/relpic/10162/9672070/a9780fe4-8724-403e-8733-b8a761e0feab.jpg"
-      ],
-      "is_ai_generated": false
-    },
-    {
-      "title": "吃美食拍影片拿禮券!「2026臺北客家美食店家推薦」短影音徵件熱烈開跑",
-      "DataSN": "9672095",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=3B83A58B04C9C65C",
-      "script": "臺北市客委會主辦的客家美食短影音徵件活動開跑，以「客家炒當香」為主題，邀請民眾用鏡頭記錄台北市客家餐廳中的經典「客家小炒」美味。拍攝影片推薦客家美食並參與票選，就有機會贏得豐富禮券，快來展現你心中的極致客家風華！",
-      "reason": "推廣在地客家飲食文化，並結合時下流行的短影音創作，非常活潑有趣且互動性高。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/380/relpic/10162/9672095/4846edfd-cbaa-45d0-b2e1-166375308c6e.jpg",
-      "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/380/relpic/10162/9672095/4846edfd-cbaa-45d0-b2e1-166375308c6e.jpg"
-      ],
-      "is_ai_generated": false
+      "title": "7月11日受巴威颱風影響 北捷文湖線及高運量高架平面段暫停營運 各路線地下段維持運轉 臺北捷運系統營運速報(06:00)",
+      "DataSN": "9672333",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=6171B7C152D205B2",
+      "script": "因應巴威颱風強風襲台，臺北捷運今天上午六點發布最新營運速報。文湖線及高運量平面與高架路段，包括圓山站至淡水站、新北投站及小碧潭站，因瞬間風速已達停駛標準，從即刻起暫停營運。至於淡水信義線地下段、松山新店線、中和新蘆線及板南線等地下化路線則維持正常運轉，班距將依實際人潮彈性調整。",
+      "reason": "文湖線及淡水線高架段因颱風風速達標而停駛，是今日市民出行的最核心交通指南，具有極高實用性與即時性。",
+      "image_url": "/home/doitdigitalinnovation/GovClaw-taipei-daily-news/output/ai_article_4.png",
+      "image_urls": [],
+      "is_ai_generated": true
     }
   ]
 }
