@@ -42,7 +42,7 @@ def generate_rss_skeleton():
     ET.SubElement(channel, 'itunes:explicit').text = 'no'
     
     image = ET.SubElement(channel, 'itunes:image')
-    image.set('href', BASE_URL + 'line_qr.png')  # Can be updated to a proper cover art later
+    image.set('href', BASE_URL + 'spotify_qr.png')  # Can be updated to a proper cover art later
     
     category = ET.SubElement(channel, 'itunes:category', {'text': 'News'})
     ET.SubElement(category, 'itunes:category', {'text': 'Daily News'})

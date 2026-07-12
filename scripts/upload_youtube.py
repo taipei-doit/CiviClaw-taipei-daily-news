@@ -49,11 +49,9 @@ def get_video_metadata():
         if IS_JAPANESE:
             title = f"台北市政ニュース {datetime.now().strftime('%Y-%m-%d')}"
             description_lines = []
-            description_lines.append(f"📱 LINE公式アカウントを追加して、毎日のハイライトを自動受信:")
-            description_lines.append(f"{LINE_FRIEND_LINK}\n")
             description_lines.append(f"🌐 ウェブサイト版 (ニュースのハイライトと元のリンク):\n{WEB_PORTAL_URL}jp/\n")
             description_lines.append("-" * 30 + "\n")
-            description_lines.append("今日の台北市政ニュースのハイライト：\n")
+            description_lines.append("今日の台北市政ニュース的ハイライト：\n")
             
             if TIMESTAMPS_FILE.exists():
                 description_lines.append("【タイムスタンプ】")
@@ -62,8 +60,6 @@ def get_video_metadata():
         else:
             title = f"每日新聞 {datetime.now().strftime('%Y-%m-%d')}"
             description_lines = []
-            description_lines.append(f"📱 加入 LINE 官方帳號，每日自動接收圖文摘要:")
-            description_lines.append(f"{LINE_FRIEND_LINK}\n")
             description_lines.append(f"🌐 網站版 (新聞重點摘要與原出處連結):\n{WEB_PORTAL_URL}\n")
             description_lines.append("-" * 30 + "\n")
             description_lines.append("今日臺北市政重點新聞摘要：\n")

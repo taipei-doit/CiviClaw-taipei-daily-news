@@ -11,7 +11,7 @@
       <itunes:email>govclaw@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://taipei-doit.github.io/CiviClaw-taipei-daily-news/line_qr.png"/>
+    <itunes:image href="https://taipei-doit.github.io/CiviClaw-taipei-daily-news/spotify_qr.png"/>
     <itunes:category text="News">
       <itunes:category text="Daily News"/>
     </itunes:category>
@@ -956,11 +956,11 @@ https://taipei-doit.github.io/CiviClaw-taipei-daily-news/</description>
 迎來二十週年里程碑的「勞動金像獎」影片徵選正式熱烈開跑，總獎金高達七十五萬元！本屆特邀知名導演侯季然出任代言人，鼓勵大眾與影像創作者拿起鏡頭記錄身邊的勞動身影，用微觀視角共同見證臺灣不凡的社會變遷。
 ------------------------------
 🌐 觀看完整影片與圖文摘要：
-https://taipei-doit.github.io/GovClaw-taipei-daily-news/</description>
+https://taipei-doit.github.io/CiviClaw-taipei-daily-news/</description>
       <pubDate>Wed, 08 Jul 2026 09:13:54 GMT</pubDate>
       <guid isPermaLink="false">episode_2026-07-08.mp3</guid>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://taipei-doit.github.io/GovClaw-taipei-daily-news/podcasts/episode_2026-07-08.mp3" length="528428" type="audio/mpeg"/>
+      <enclosure url="https://taipei-doit.github.io/CiviClaw-taipei-daily-news/podcasts/episode_2026-07-08.mp3" length="528428" type="audio/mpeg"/>
     </item>
     <item>
       <title>每日市政摘要 2026-07-09</title>
