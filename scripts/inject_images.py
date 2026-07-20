@@ -12,15 +12,21 @@ if not INPUT_JSON.exists():
 url = "https://www.gov.taipei/OpenData.aspx?SN=ABBF62618F53F8DE"
 req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
 try:
-    with urllib.request.urlopen(req) as response:
+    import ssl
+    context = ssl._create_unverified_context()
+    with urllib.request.urlopen(req, context=context) as response:
         news_data = json.loads(response.read().decode('utf-8-sig'))
 except Exception as e:
     print(f"Failed to fetch OpenData: {e}")
-    # Fallback to local file if fetch fails
-    try:
-        news_data = json.loads((OUTPUT_DIR / "news_12pm.json").read_text(encoding="utf-8-sig"))
-    except:
-        news_data = []
+    # Fallback to local files if fetch fails
+    news_data = []
+    for filename in ["news_live.json", "news_12pm.json"]:
+        try:
+            filepath = OUTPUT_DIR / filename
+            if filepath.exists():
+                news_data.extend(json.loads(filepath.read_text(encoding="utf-8-sig")))
+        except Exception as ex:
+            print(f"Failed to read fallback {filename}: {ex}")
 
 data = json.loads(INPUT_JSON.read_text(encoding="utf-8-sig"))
 
