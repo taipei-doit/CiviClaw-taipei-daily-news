@@ -1,88 +1,78 @@
 {
   "selected": [
     {
-      "title": "「大巨蛋好宿PASS」起跑！ 憑票根享臺北旅宿優惠 還有五星酒店住宿券抽獎活動",
-      "DataSN": "9708716",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=6B8742A7564DE6D3",
-      "script": "去看演唱會或體育賽事的朋友們注意囉！臺北市觀傳局推出「大巨蛋好宿PASS」活動，只要持大巨蛋的活動票根，入住台北君悅或春天酒店等上百家合作旅宿就能享有超划算的專屬優惠，還有機會抽中五星級酒店住宿券，趕快規劃一趟精采的臺北深度旅遊吧！",
-      "reason": "這項活動直接連結大巨蛋的超高人氣，對於喜愛演唱會與體育賽事的國內外遊客來說極具吸引力，能夠有效推廣臺北旅宿與觀光商機，非常具有實用價值。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/308/relpic/10162/9708716/ca1067bb-260a-4842-b26d-88d7223a1506.jpg",
+      "title": "消防局福國分隊駐地落成及啟用　蔣萬安：全面提升臺北市城市韌性",
+      "DataSN": "9709147",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=04CDB210A0A42168",
+      "script": "台北市消防局福國分隊全新駐地於今日正式落成啟用！市長蔣萬安強調，新分隊的成立將大幅提升當地的災害救援與應變能力，為市民建構更安全的居家環境。市府未來也將持續推動防救災設施的現代化，讓台北市的都市韌性與安全防護全面升級。",
+      "reason": "這是一則關於公共安全與市政建設的重大消息，消防分隊落成對提升地區防救災韌性具有關鍵意義，適合市民關注。",
+      "image_url": "",
+      "image_urls": []
+    },
+    {
+      "title": "北市聯醫跨院區整合、AI助攻  打造24小時心血管救治網",
+      "DataSN": "9709136",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=68EA79645BEBD7DC",
+      "script": "台北市聯合醫院積極推動跨院區整合，並導入先進的AI科技助攻，成功建構起24小時不打烊的心血管黃金救治網。這項智慧醫療創新能快速診斷、精準分流，在關鍵時刻拯救更多寶貴生命。台北市正邁向更智慧、更安全的健康照護新時代，為全體市民提供最強大的醫療後盾！",
+      "reason": "介紹台北市在醫療與人工智慧結合方面的創新，關乎市民的心血管生命安全救治，極具實用價值與正面宣傳效果。",
+      "image_url": "",
+      "image_urls": []
+    },
+    {
+      "title": "922國際無車日 雙北公車免費搭 邀您響應搭公車遊臺北",
+      "DataSN": "9708801",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=17605CC63859CCB0",
+      "script": "為了響應即將到來的九二二國際無車日，雙北市攜手推出公車免費搭乘的好康優惠，鼓勵大家一同加入綠色出行的行列！這項大眾運輸免費活動不僅能減少都市碳排放，更邀請市民朋友坐上公車，暢遊台北各地的美麗景點。快規劃你的週末綠色輕旅行，體驗更環保、便利的城市魅力吧！",
+      "reason": "這是直接惠及市民的交通好消息。公車免費搭乘活動具有高度的實用性，能有效鼓勵市民參與低碳永續行動。",
+      "image_url": "",
+      "image_urls": []
+    },
+    {
+      "title": "棕白瓜吃黃綠瓜？ 馬來貘寶寶吃瓜初體驗",
+      "DataSN": "9709238",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=2B8C0ED2626BCCA7",
+      "script": "台北市立動物園傳來超萌好消息！剛出生不久、身上帶著花紋的馬來貘寶寶，今天迎來了牠的『吃瓜初體驗』，好奇逗趣的模樣融化了現場所有工作人員。這隻活潑的動物明星正一天天茁壯成長，歡迎大家找時間到動物園，親眼看看這隻可愛小寶貝的萌樣喔！",
+      "reason": "這是一則來自台北市立動物園的超萌動物新聞。輕鬆有趣、溫馨正面，能吸引大量市民與家庭觀眾，極具社群傳播力。",
+      "image_url": "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/a6f7417b-95c1-49d1-b329-ca1c96039f82.jpg",
       "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/308/relpic/10162/9708716/ca1067bb-260a-4842-b26d-88d7223a1506.jpg",
-        "https://www-ws.gov.taipei/001/Upload/308/relpic/10162/9708716/c5ec910c-8028-4bac-a649-2cc3516555cb.jpg",
-        "https://www-ws.gov.taipei/001/Upload/308/relpic/10162/9708716/8ecb8992-7f52-412e-844c-a6d57eef5855.jpg",
-        "https://www-ws.gov.taipei/001/Upload/308/relpic/10162/9708716/6dc87350-74d8-4bff-a613-ae7f1429a223.jpg",
-        "https://www-ws.gov.taipei/001/Upload/308/relpic/10162/9708716/af019924-d004-4feb-b3b8-f5cdc083381c.jpg"
+        "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/a6f7417b-95c1-49d1-b329-ca1c96039f82.jpg",
+        "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/ac9f714d-9401-49b0-b431-3bc7a00ad5e6.jpg",
+        "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/a6611601-928a-4bd1-8655-11dac103300c.jpg",
+        "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/890e9ebf-3c23-44d0-ad25-927015f49d93.jpg",
+        "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/4d1a7a1a-aa06-4fcc-b860-059f83fae074.jpg",
+        "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/0cd41e6b-e411-4ca7-925a-ad806cf31bcf.jpg",
+        "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/9c61136b-9224-42d2-839d-82563bf2f783.jpg",
+        "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/8477d206-2c7e-4bbd-aa09-a7833d118b0d.jpg",
+        "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/9709238/68bf8c6d-b2d7-4c3d-8ebd-270e7f08e922.jpg"
       ],
       "is_ai_generated": false
     },
     {
-      "title": "臺北風格在東京！TAIPEI corners 領軍16家臺灣文創品牌前進東京 四大通路巡迴開跑 首度進駐西武百貨、下北澤月亮祭同期展售",
-      "DataSN": "9708800",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=7A870BC198409977",
-      "script": "臺灣的文化軟實力再度在國際舞台上綻放！「TAIPEI corners」今年帶領16家優秀的臺灣文創品牌前進東京，展開四大知名通路的巡迴展售，更首度進駐西武百貨與下北澤潮流街區，向日本消費者展示最鮮明、最具美感的臺灣生活風格。",
-      "reason": "這項消息展現了臺灣文創產業走向國際市場的傲人成果，成功提升臺灣品牌的國際能見度與影響力，是極具正面形象與文化代表性的優質新聞。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/964cced0-f55d-4823-b114-7a4a7fb0da1a.jpg",
+      "title": "2026台北老屋新生大獎揭曉，15件老屋改造作品讓城市記憶重新回到日常",
+      "DataSN": "9708505",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=DB6D8B49AF75D940",
+      "script": "令人矚目的二〇二六台北老屋新生大獎名單正式揭曉，共計有十五件別具匠心的老屋改造作品脫穎而出！這些設計將古老建築賦予全新靈魂，成功讓珍貴的城市記憶重回日常，成為社區的新亮點。歡迎市民朋友造訪這些融合古典與現代美學的獨特空間，親身感受台北舊城區的重生故事。",
+      "reason": "展現台北市在城市美學、歷史建築保存與社區營造上的努力與成果，是極具文化氣息且能激發市民認同感的新聞。",
+      "image_url": "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/902799ac-3d91-4980-a35e-eaafe7e0f2a6.jpg",
       "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/964cced0-f55d-4823-b114-7a4a7fb0da1a.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/b7400966-bb7c-4fc8-b056-9654211d6c1f.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/acaf066f-80ba-444f-8101-e9ec33c15757.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/1f15714e-6621-432e-991b-368b23b160cf.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/2ce60a50-570d-4780-9b65-83b9873d1e78.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/7d214660-8abf-440d-959b-eca4ed5498d4.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/908317e6-ce01-402b-b005-3204bde97652.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/e9605b4d-619f-4dbb-98c1-53a173e95c71.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9708800/afadaf8f-8711-405b-a8be-4165698c329b.jpg"
-      ],
-      "is_ai_generated": false
-    },
-    {
-      "title": "武功國小-生態池迎新朋友！武功國小師生協力放養龜龜 銜接萬盛溪校訂課程",
-      "DataSN": "9708875",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=A7B28AF58A6A7DBC",
-      "script": "臺北市武功國小為了重現過去地下化萬盛溪的豐富生態，日前在校園內舉辦溫馨的「生態池迎新朋友」活動，由三、六年級的學生親手將斑龜和巴西龜放養至生態池中。這項生動有趣的校訂特色課程，不僅讓孩子們學會尊重與愛護生命，也為校園注入了滿滿的綠意與活力。",
-      "reason": "這是一則充滿生命教育意義與地方歷史傳承的暖心新聞，透過小學生親自參與生態池維護與放養烏龜的溫馨互動，傳遞出愛護環境與保育生態的正面價值。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9708875/c91d0a23-8611-4dca-8a8f-136e7461d2f4.jpg",
-      "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9708875/c91d0a23-8611-4dca-8a8f-136e7461d2f4.jpg",
-        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9708875/a3cf8091-ad44-4612-a864-90457cae4e71.jpg",
-        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9708875/8b7dbafe-5888-4534-a7dd-ddbbe35b356b.jpg"
-      ],
-      "is_ai_generated": false
-    },
-    {
-      "title": "視察文山木柵段公辦都更案　蔣萬安：臺北市進入大都更時代",
-      "DataSN": "9708013",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=48A21F85E1E8D36D",
-      "script": "臺北市長蔣萬安宣布臺北市正式進入「大都更時代」！日前他在視察文山木柵段公辦都更案時強調，市府在完備法定程序後，將堅定展現公權力執行代拆，絕對不允許極少數的不同意戶綁架絕大多數居民期盼都更與改善居住品質的安全權益。",
-      "reason": "都市更新是臺北市民極為關注的重大施政焦點，蔣萬安市長宣布「大都更時代」並宣示展現公權力的決心，具有極高的社會關注度與公共政策影響力。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9708013/bfbe7a53-6daf-42d0-bc90-67705e8dd9a7.jpg",
-      "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9708013/bfbe7a53-6daf-42d0-bc90-67705e8dd9a7.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9708013/7621c302-9001-4912-9603-f8a926ee3d89.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9708013/dee10020-cedd-471d-8801-a4c639ae978f.jpg"
-      ],
-      "is_ai_generated": false
-    },
-    {
-      "title": "北市生技隧道通車前災害應變演練成功！ 蘇花改等級排煙設備、全國首創「緊急救護通道」",
-      "DataSN": "9708218",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=F36E17904BF82A3B",
-      "script": "攸關國家生技研究園區聯外道路的「生技隧道」即將迎來通車，臺北市政府日前成功舉行了大型交通事故災害應變演練！這座隧道不僅配備了蘇花改等級的高規格防煙排煙設備，更是全國首創規畫了「緊急救護通道」，大幅提升了通車後的整體行車安全與救災效率。",
-      "reason": "這是一則攸關民生與交通安全的重大工程建設報導，蘇花改等級的高規格安全排煙配置和全國首創的救援通道，展現了高科技防救災技術與交通便利的雙重進步。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/8bf5d599-3687-48d8-8261-6976f44b5f4b.jpg",
-      "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/8bf5d599-3687-48d8-8261-6976f44b5f4b.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/4a926c3c-da75-4b87-951a-30dde623cf61.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/6fd98d1e-3d5f-42f2-a0a8-7fabaa4c95db.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/97bf784b-f16e-406d-80c6-0e5d32487493.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/9530a4c3-1df9-4af3-8097-eb5b45421043.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/ac562fc8-25f5-4572-bbc9-5033a15bb2e5.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/bc870ffa-3d4a-4d8b-8f98-09086483e697.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/7c4c02ac-2350-4983-9330-bf12ea9d0233.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/c7e4e2ed-1f6d-43a4-b995-6c2b0dc39189.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/2a5285a3-4b6f-4188-8a18-2c78eda5f61d.jpg",
-        "https://www-ws.gov.taipei/001/Upload/346/relpic/10162/9708218/e0ac0826-a94b-4b06-b3c4-10b69125cd43.jpg"
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/902799ac-3d91-4980-a35e-eaafe7e0f2a6.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/4ce1203e-3239-4011-b1ca-2cc0ccdcccff.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/5d3d1f50-7cfc-40de-b960-fcce194c6841.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/86e51626-2bf8-4de6-b6b7-2480f468e31a.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/fa5782f7-1736-4b31-92fd-a8ede3e2654f.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/3f81416a-5df0-49f0-83e2-dfa46aa452b2.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/f27aa303-a488-473e-bf4e-8b800bfe614e.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/124cea29-f410-49af-b9cb-a724dd60fdd1.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/70952a11-679d-4a21-afc5-d99791594c49.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/5bc64d4d-f69c-4da1-b1f0-aa008ffb0523.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/8f7e3ad8-a564-430b-bef4-3906741698c3.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/104b7562-e734-4ae1-86a1-9a55e966349e.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/678e5ae2-bef3-443b-af29-16801f78cd7e.png",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/4e104130-7e7d-4bb4-93c8-0b20ab77c71d.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/9fdf789b-3d99-4eb4-8f1c-20769475a8fd.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/f6fd9817-3e6f-4209-a7b1-0c985b21725c.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/a4bb3dcd-15dd-4c0b-9df3-6d0f8591c4c8.jpg",
+        "https://www-ws.gov.taipei/001/Upload/459/relpic/10162/9708505/043a50aa-860f-42d3-a451-3e287652920a.jpg"
       ],
       "is_ai_generated": false
     }
