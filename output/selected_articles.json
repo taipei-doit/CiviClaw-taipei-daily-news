@@ -1,80 +1,66 @@
 {
   "selected": [
     {
-      "DataSN": "9715610",
-      "title": "心中山萬聖節「反派童話派對」 10/2-11/1搞怪登場 萬聖市集、鬼怪驚喜現身 搭捷運逛市集送「捷運點」",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=E364160F3CBBB307",
-      "script": "心中山萬聖節「反派童話派對」即日起至十一月一日搞怪登場！現場除了每週推出風格獨特的特色市集與限定餐飲，還有吸血鬼、巫婆等驚喜鬼怪不定期現身發送糖果，只要搭乘捷運並出示當日出站紀錄，還能免費領取限量捷運點數二十點喔！",
-      "reason": "萬聖節主題極具娛樂與節慶話題，且結合中山商圈特色市集與搭捷運送點數優惠，對年輕市民與觀光客非常有吸引力。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/405/relpic/10162/9715610/3a37665b-5261-4f92-a9a1-21515f09d817.png",
+      "title": "115年10月10日雙十節連續假期部分公有路邊及路外停車場暫停收費，裝卸貨格位及限時格位仍維持既有管制方式",
+      "DataSN": "9712160",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=A96FC8625CCD399A",
+      "script": "雙十國慶連假即將到來！臺北市政府宣布，10月9日至11日期間，除了原先週日收費的路段維持收費外，其餘公有路邊收費停車格將全面暫停收費。提醒車主，裝卸貨格位與限時格位依然維持既有管制，請務必看清現場標誌再行停放。",
+      "reason": "Double Tenth day public parking news is extremely useful and practical for the general public planning their holidays.",
+      "image_url": "",
+      "image_urls": []
+    },
+    {
+      "title": "115年雙十國慶3天連假 臺北市垃圾正常收運",
+      "DataSN": "9715483",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=4C779586457EF5DD",
+      "script": "雙十國慶三天連假期間，臺北市環保局服務不停歇！10月9日與10日兩天，全市清潔隊將照常收運垃圾、廚餘及資源回收物；10月11日週日則依慣例停收。若無法配合時間的民眾，可多加利用全市30處限時收受點丟棄。",
+      "reason": "Holiday trash collection schedules are essential practical information for all citizens.",
+      "image_url": "",
+      "image_urls": []
+    },
+    {
+      "title": "臺北市衛生局實驗室「四大革新」 全面升級食安防線",
+      "DataSN": "9715756",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=064134E8655ABA5B",
+      "script": "為了全面升級食安防線，臺北市衛生局實驗室推出「四大革新」！透過增加專責人力、建立新興檢驗技術、擴增高階儀器，以及推動主動監測機制，將檢驗與查核深度融合，力求在第一時間發現風險並迅速應變，守護市民每一餐的安全。",
+      "reason": "Highlighting the government's food safety upgrades which reassure citizens about public health and dining safety.",
+      "image_url": "",
+      "image_urls": []
+    },
+    {
+      "title": "臺北無人機足球空戰開打！首度串聯多元賽制 培育新世代無人機人才",
+      "DataSN": "9715818",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=F3FB3B69BCE83C43",
+      "script": "臺北無人機足球空戰火熱開打！今年教育局首度與電腦公會合作，在木柵高工舉辦公開賽，吸引了超過80支隊伍、300多名學子化身「空中球員」激烈對決。這項新興科技運動不僅考驗選手的操作與戰術，更為臺北市培育了無人機與人工智慧領域的新世代科技人才。",
+      "reason": "Uncrewed aerial vehicle (UAV) drone football tournament is a high-tech, futuristic educational event that grabs attention.",
+      "image_url": "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9715818/2a73edb6-1620-49e3-998d-08a22a5ac575.jpg",
       "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/405/relpic/10162/9715610/3a37665b-5261-4f92-a9a1-21515f09d817.png"
+        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9715818/2a73edb6-1620-49e3-998d-08a22a5ac575.jpg",
+        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9715818/ab6e20d6-faf9-4231-ad23-f182ce269a17.jpg",
+        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9715818/0905b1f7-87d2-4a62-b20e-094df00803ac.jpg",
+        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9715818/3c9316c0-8c6e-481d-b039-6de941d9de99.jpg",
+        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9715818/42111b3f-9237-4ff5-858e-088b55600137.jpg",
+        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9715818/64601823-b130-48c9-83d2-446cabb3ea50.jpg",
+        "https://www-ws.gov.taipei/001/Upload/342/relpic/10162/9715818/70c252fd-905f-4ddb-8898-bf6368a3d08b.jpg"
       ],
       "is_ai_generated": false
     },
     {
-      "DataSN": "9715651",
-      "title": "2026基北北桃眷村文化節聯合啟動　臺北串聯三村開啟記憶電台　 煥民新村全區開放邁向新里程碑",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=C4C5D20B08C853CA",
-      "script": "二〇二六基北北桃眷村文化節正式開跑，今年以「記憶電台」為主題，特別串聯台北三大眷村帶您重溫昔日情懷！其中歷經八年修復的「煥民新村」迎來全區開放，十月九號至十號主場將有超人氣金曲樂團演出、樹屋講座及復古木陀螺競技，誠摯邀請大家一起來尋找屬於那段歲月的溫暖人情味。",
-      "reason": "此為基北北桃四市聯合舉辦的年度大型文化盛事，且伴隨煥民新村歷時八年修復後的首度全區開放，具有深厚的文化價值與高度的新聞性。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9715651/e9a839cb-ccd4-4de1-9023-f1e04ca09c77.jpg",
+      "title": "北市動保處舉辦「毛孩健康同樂會」攜寵同遊響應世界狂犬病日及世界動物日",
+      "DataSN": "9714561",
+      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=14638D898D790F8B",
+      "script": "響應世界狂犬病日及世界動物日，北市動保處在迎風狗運動公園溫馨舉辦「毛孩健康同樂會」！現場除規劃逗趣的「攜寵趣散步」闖關健走、喵星人趣味攝影展，更貼心提供免費寵物健檢與疫苗施打，吸引許多毛爸媽熱情參與，一同打造毛孩友善的幸福城市。",
+      "reason": "A heartwarming and cute pet health and education event held at a dog park, highlighting animal welfare and veterinary services.",
+      "image_url": "https://www-ws.gov.taipei/001/Upload/411/relpic/10162/9714561/fa1e71f5-26ef-48e0-b7da-d891e8bd6b51.jpg",
       "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9715651/e9a839cb-ccd4-4de1-9023-f1e04ca09c77.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9715651/4ef2ecd2-7507-4a8e-8db5-897b92631d41.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9715651/a4b26b41-78f2-4fcc-bed5-08c773993c21.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9715651/5917c857-0ac3-46aa-92c1-c7f9055e01be.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9715651/0123fa01-1cae-4c68-bf2a-c9947b363785.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9715651/f3270c32-9949-4dac-980a-02334195f5d9.jpg",
-        "https://www-ws.gov.taipei/001/Upload/686/relpic/10162/9715651/659d95d3-077e-4d21-b06c-ceeb18137e65.jpg"
-      ],
-      "is_ai_generated": false
-    },
-    {
-      "DataSN": "9714756",
-      "title": "松河街堤防美化再添新作　藍鵲帶路穿梭古今！",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=7C574BBA538035BA",
-      "script": "南港區松河街沿線堤防全新換上藝術彩繪！這幅名為「時序航洋」的作品由設計師與演員楊皓崴攜手創作，以極具代表性的臺灣藍鵲為核心，巧妙揉合歷史戎克船、成美吊橋與現代大樓，用冷暖色調流暢地展現了南港從早期水岸生活到現代科技都市的古今演變，絕對是散步與拍照打卡的最新亮點！",
-      "reason": "堤防彩繪美化融合了台北市鳥台灣藍鵲與在地歷史，能激發市民對地方歷史的共鳴，是非常溫馨且富教育意義的城市美學題材。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/730/relpic/10162/9714756/5f8ab760-76f9-4566-b207-b5db03ab63a2.jpg",
-      "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/730/relpic/10162/9714756/5f8ab760-76f9-4566-b207-b5db03ab63a2.jpg",
-        "https://www-ws.gov.taipei/001/Upload/730/relpic/10162/9714756/7732d5f8-1283-47e1-9c37-bfda93d8f416.jpg",
-        "https://www-ws.gov.taipei/001/Upload/730/relpic/10162/9714756/9624ff77-a5f6-4997-b401-6e19f142e78f.jpg"
-      ],
-      "is_ai_generated": false
-    },
-    {
-      "DataSN": "9714718",
-      "title": "紫鈴鐺為您祈福！士林官邸蒜香藤盛開",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=164F6766412FFFE1",
-      "script": "士林官邸近日迎來超唯美的「蒜香藤」盛開！一串串淡紫色的喇叭狀花朵沿著藤蔓恣意綻放，宛如無數盞紫色小鈴鐺垂掛，微風吹拂下顯得格外清新優雅；這片限時綻放的紫色花瀑預計持續到下週，快把握黃金花期，前往感受蒜香藤所代表的「勇氣與守護」之美吧！",
-      "reason": "士林官邸的蒜香藤花瀑具備極佳的視覺美感，是非常適合在社群媒體與影音平台傳播的休閒賞花生活題材。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/348/relpic/10162/9714718/226ef6a5-3d78-410e-819b-c1c207d845e1.jpg",
-      "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/348/relpic/10162/9714718/226ef6a5-3d78-410e-819b-c1c207d845e1.jpg",
-        "https://www-ws.gov.taipei/001/Upload/348/relpic/10162/9714718/6ef2d5c0-ba4f-4b20-b86a-dde4329b67fb.jpg",
-        "https://www-ws.gov.taipei/001/Upload/348/relpic/10162/9714718/616fd710-1faf-4034-9cd4-b41d1672f71e.jpg",
-        "https://www-ws.gov.taipei/001/Upload/348/relpic/10162/9714718/94438327-d63e-439d-b0cb-88dac34281da.jpg"
-      ],
-      "is_ai_generated": false
-    },
-    {
-      "DataSN": "9715659",
-      "title": "出席臺北市銀髮族運動會開幕典禮　蔣萬安細數敬老福利政策、廣設第二運動中心　鼓勵長者多運動顧健康",
-      "source_url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=D6199D40A91B6299",
-      "script": "台北市銀髮族運動會熱鬧開幕，市長蔣萬安親自出席並為長者們加油打氣！市府積極落實各項敬老福利，不僅將敬老卡點數提高至每月六百點，明年更將開放累積與擴大到超商、藥局等通路使用，同時宣布公館運動館即將在本月啟用，未來也將持續廣設第二運動中心，為長輩們打造最優質、便利的運動與生活空間！",
-      "reason": "市長親自出席，且內容攸關銀髮族運動會、敬老卡點數擴大及累積機制（涉及廣大長者權益），以及新運動館開幕，是具高度實用價值的市民福利與市政新聞。",
-      "image_url": "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9715659/73d19751-b528-4f8f-bf50-9485f8e36417.jpg",
-      "image_urls": [
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9715659/73d19751-b528-4f8f-bf50-9485f8e36417.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9715659/61fde33c-de1d-4982-be28-fe23400f0747.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9715659/75784383-27f2-4b3e-b1fc-714035afb098.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9715659/152c9f47-446e-437e-9ac3-95e2f1e86b8e.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9715659/fdcd3ad8-58e4-4b73-a9cb-e788642d9075.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9715659/c1b04ee3-6449-4e32-a896-f82f7654ea91.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9715659/cc684e46-b23c-4928-9917-318b9a517df5.jpg",
-        "https://www-ws.gov.taipei/001/Upload/297/relpic/10162/9715659/0765a96e-c0f1-4ad3-8deb-232dabcc6a03.jpg"
+        "https://www-ws.gov.taipei/001/Upload/411/relpic/10162/9714561/fa1e71f5-26ef-48e0-b7da-d891e8bd6b51.jpg",
+        "https://www-ws.gov.taipei/001/Upload/411/relpic/10162/9714561/1c6e9f6b-750e-4d34-a159-e5a150e944e7.jpg",
+        "https://www-ws.gov.taipei/001/Upload/411/relpic/10162/9714561/510b3b2c-d65c-489b-ada7-eaa2887126f0.jpg",
+        "https://www-ws.gov.taipei/001/Upload/411/relpic/10162/9714561/070da517-6604-459d-bf98-527acb9cbf5b.jpg",
+        "https://www-ws.gov.taipei/001/Upload/411/relpic/10162/9714561/a093f5ff-4ab4-4608-98f1-ecaa4e6b4e77.jpg",
+        "https://www-ws.gov.taipei/001/Upload/411/relpic/10162/9714561/79526939-fb8f-4a30-9c00-9b0ecce72259.jpg",
+        "https://www-ws.gov.taipei/001/Upload/411/relpic/10162/9714561/4fb565fd-9e57-40fd-b87a-b0836f440e07.jpg",
+        "https://www-ws.gov.taipei/001/Upload/411/relpic/10162/9714561/12bd810a-6000-49c5-93a0-11d6f96d7fc8.jpg"
       ],
       "is_ai_generated": false
     }
